@@ -1,0 +1,23 @@
+[
+  {
+    "slug": "uncc",
+    "display_name": "UNC Charlotte",
+    "subreddit": "UNCC",
+    "rmp_school_name": "University of North Carolina at Charlotte",
+    "primary_color": "#005035"
+  },
+  {
+    "slug": "unc",
+    "display_name": "UNC Chapel Hill",
+    "subreddit": "UNC",
+    "rmp_school_name": "University of North Carolina at Chapel Hill",
+    "primary_color": "#4B9CD3"
+  },
+  {
+    "slug": "ncsu",
+    "display_name": "NC State",
+    "subreddit": "NCSU",
+    "rmp_school_name": "North Carolina State University",
+    "primary_color": "#CC0000"
+  }
+]
