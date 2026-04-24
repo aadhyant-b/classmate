@@ -1,0 +1,278 @@
+{
+  "uncc": [
+    {
+      "code": "ITCS 1212",
+      "title": "Introduction to Computer Science I",
+      "department": "ITCS",
+      "aliases": ["Intro to CS 1", "Intro CS", "CS 1", "intro programming", "1212"]
+    },
+    {
+      "code": "ITCS 1213",
+      "title": "Introduction to Computer Science II",
+      "department": "ITCS",
+      "aliases": ["Intro to CS 2", "CS 2", "1213"]
+    },
+    {
+      "code": "ITCS 2214",
+      "title": "Data Structures",
+      "department": "ITCS",
+      "aliases": ["Data Structures", "DSA", "2214"]
+    },
+    {
+      "code": "ITCS 3153",
+      "title": "Artificial Intelligence",
+      "department": "ITCS",
+      "aliases": ["AI", "Artificial Intelligence", "3153"]
+    },
+    {
+      "code": "ITCS 3160",
+      "title": "Database Design and Implementation",
+      "department": "ITCS",
+      "aliases": ["Databases", "DB", "3160"]
+    },
+    {
+      "code": "MATH 1241",
+      "title": "Calculus I",
+      "department": "MATH",
+      "aliases": ["Calc 1", "Calc I", "Calculus 1", "Calculus I", "1241"]
+    },
+    {
+      "code": "MATH 1242",
+      "title": "Calculus II",
+      "department": "MATH",
+      "aliases": ["Calc 2", "Calc II", "Calculus 2", "Calculus II", "1242"]
+    },
+    {
+      "code": "MATH 2164",
+      "title": "Discrete Mathematics",
+      "department": "MATH",
+      "aliases": ["Discrete Math", "Discrete", "2164"]
+    },
+    {
+      "code": "MATH 2171",
+      "title": "Differential Equations",
+      "department": "MATH",
+      "aliases": ["Diff EQ", "ODE", "2171"]
+    },
+    {
+      "code": "STAT 1220",
+      "title": "Elements of Statistics",
+      "department": "STAT",
+      "aliases": ["Stats", "Statistics", "1220"]
+    },
+    {
+      "code": "CHEM 1200",
+      "title": "General Chemistry I",
+      "department": "CHEM",
+      "aliases": ["Gen Chem 1", "Gen Chem I", "Chem 1", "Chem I", "1200"]
+    },
+    {
+      "code": "CHEM 1201",
+      "title": "General Chemistry II",
+      "department": "CHEM",
+      "aliases": ["Gen Chem 2", "Gen Chem II", "Chem 2", "Chem II", "1201"]
+    },
+    {
+      "code": "UWRT 1103",
+      "title": "Writing and Inquiry in Academic Contexts I",
+      "department": "UWRT",
+      "aliases": ["English 1", "Writing 1", "Comp 1", "UWRT", "1103"]
+    },
+    {
+      "code": "PSYC 1101",
+      "title": "General Psychology",
+      "department": "PSYC",
+      "aliases": ["Intro Psych", "Gen Psych", "Psych 101", "1101"]
+    },
+    {
+      "code": "MATH 1100",
+      "title": "Precalculus",
+      "department": "MATH",
+      "aliases": ["Precalc", "Pre-Calculus", "1100"]
+    }
+  ],
+  "unc": [
+    {
+      "code": "COMP 110",
+      "title": "Introduction to Programming and Data Science",
+      "department": "COMP",
+      "aliases": ["Intro to CS", "Intro Programming", "CS 110", "COMP 110"]
+    },
+    {
+      "code": "COMP 210",
+      "title": "Data Structures and Analysis",
+      "department": "COMP",
+      "aliases": ["Data Structures", "DSA", "COMP 210"]
+    },
+    {
+      "code": "COMP 283",
+      "title": "Discrete Structures",
+      "department": "COMP",
+      "aliases": ["Discrete Math", "Discrete Structures", "283"]
+    },
+    {
+      "code": "COMP 301",
+      "title": "Foundations of Programming",
+      "department": "COMP",
+      "aliases": ["Foundations", "OOP", "301"]
+    },
+    {
+      "code": "COMP 311",
+      "title": "Computer Organization",
+      "department": "COMP",
+      "aliases": ["Computer Org", "Architecture", "311"]
+    },
+    {
+      "code": "COMP 455",
+      "title": "Models of Languages and Computation",
+      "department": "COMP",
+      "aliases": ["Theory of Computation", "TOC", "Automata", "455"]
+    },
+    {
+      "code": "MATH 231",
+      "title": "Calculus of Functions of One Variable I",
+      "department": "MATH",
+      "aliases": ["Calc 1", "Calc I", "Calculus 1", "Calculus I", "MATH 231"]
+    },
+    {
+      "code": "MATH 232",
+      "title": "Calculus of Functions of One Variable II",
+      "department": "MATH",
+      "aliases": ["Calc 2", "Calc II", "Calculus 2", "Calculus II", "MATH 232"]
+    },
+    {
+      "code": "MATH 233",
+      "title": "Calculus of Functions of Several Variables",
+      "department": "MATH",
+      "aliases": ["Calc 3", "Calc III", "Calculus 3", "Calculus III", "Multivariable Calc", "Multi", "MATH 233"]
+    },
+    {
+      "code": "STOR 155",
+      "title": "Introduction to Data Models and Inference",
+      "department": "STOR",
+      "aliases": ["Stats", "Intro Stats", "STOR 155"]
+    },
+    {
+      "code": "CHEM 101",
+      "title": "General Chemistry I",
+      "department": "CHEM",
+      "aliases": ["Gen Chem 1", "Gen Chem I", "Chem 1", "Chem I", "CHEM 101"]
+    },
+    {
+      "code": "BIOL 101",
+      "title": "Biology and the Human Species",
+      "department": "BIOL",
+      "aliases": ["Bio 101", "Intro Bio", "Human Bio", "BIOL 101"]
+    },
+    {
+      "code": "PSYC 101",
+      "title": "General Psychology",
+      "department": "PSYC",
+      "aliases": ["Intro Psych", "Gen Psych", "Psych 101"]
+    },
+    {
+      "code": "ENGL 105",
+      "title": "Writing and Rhetoric",
+      "department": "ENGL",
+      "aliases": ["English 105", "Comp", "Writing", "Rhetoric"]
+    },
+    {
+      "code": "ECON 101",
+      "title": "Introduction to Economics",
+      "department": "ECON",
+      "aliases": ["Intro Econ", "Econ 101", "Micro"]
+    }
+  ],
+  "ncsu": [
+    {
+      "code": "CSC 116",
+      "title": "Introduction to Computing - Java",
+      "department": "CSC",
+      "aliases": ["Intro to CS", "Intro Java", "CS 116", "CSC 116"]
+    },
+    {
+      "code": "CSC 216",
+      "title": "Software Development Fundamentals",
+      "department": "CSC",
+      "aliases": ["SWD", "Software Dev", "Java 2", "CSC 216"]
+    },
+    {
+      "code": "CSC 316",
+      "title": "Data Structures and Algorithms",
+      "department": "CSC",
+      "aliases": ["Data Structures", "DSA", "CSC 316"]
+    },
+    {
+      "code": "CSC 226",
+      "title": "Discrete Mathematics for Computer Scientists",
+      "department": "CSC",
+      "aliases": ["Discrete Math", "Discrete", "CSC 226"]
+    },
+    {
+      "code": "CSC 246",
+      "title": "Concepts and Facilities of Operating Systems",
+      "department": "CSC",
+      "aliases": ["OS", "Operating Systems", "CSC 246"]
+    },
+    {
+      "code": "CSC 333",
+      "title": "Automata, Grammars, and Computability",
+      "department": "CSC",
+      "aliases": ["Theory of Computation", "Automata", "TOC", "333"]
+    },
+    {
+      "code": "MA 141",
+      "title": "Calculus I",
+      "department": "MA",
+      "aliases": ["Calc 1", "Calc I", "Calculus 1", "Calculus I", "MA 141"]
+    },
+    {
+      "code": "MA 241",
+      "title": "Calculus II",
+      "department": "MA",
+      "aliases": ["Calc 2", "Calc II", "Calculus 2", "Calculus II", "MA 241"]
+    },
+    {
+      "code": "MA 242",
+      "title": "Calculus III",
+      "department": "MA",
+      "aliases": ["Calc 3", "Calc III", "Calculus 3", "Calculus III", "Multivariable Calc", "Multi", "MA 242"]
+    },
+    {
+      "code": "MA 341",
+      "title": "Applied Differential Equations I",
+      "department": "MA",
+      "aliases": ["Diff EQ", "ODE", "MA 341"]
+    },
+    {
+      "code": "ST 370",
+      "title": "Probability and Statistics for Engineers",
+      "department": "ST",
+      "aliases": ["Stats", "Prob and Stats", "Engineering Stats", "ST 370"]
+    },
+    {
+      "code": "CH 101",
+      "title": "Chemistry - A Molecular Science",
+      "department": "CH",
+      "aliases": ["Gen Chem 1", "Gen Chem I", "Chem 1", "Chem I", "CH 101"]
+    },
+    {
+      "code": "PY 205",
+      "title": "Physics for Engineers and Scientists I",
+      "department": "PY",
+      "aliases": ["Physics 1", "Intro Physics", "PY 205"]
+    },
+    {
+      "code": "ENG 101",
+      "title": "Academic Writing and Research",
+      "department": "ENG",
+      "aliases": ["English 101", "Comp", "Writing", "ENG 101"]
+    },
+    {
+      "code": "EC 201",
+      "title": "Principles of Microeconomics",
+      "department": "EC",
+      "aliases": ["Micro", "Intro Econ", "Econ 201", "EC 201"]
+    }
+  ]
+}
