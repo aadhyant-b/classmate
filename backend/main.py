@@ -159,41 +159,46 @@ def get_course_insights(school: str, code: str) -> dict:
     course_code = resolved["code"]
     school_data = _SCHOOLS_BY_SLUG[school]
 
-    posts: list[dict]      = []
+    # Primary: RMP course search finds professors who actually teach this course
     professors: list[dict] = []
     try:
-        posts = reddit_client.get_professor_posts(
-            school_data["subreddit"], course_code, course_code, limit=15,
+        professors = rmp_client.get_professors_for_course(
+            school_data["rmp_school_name"], course_code, limit=5,
         )
-        professors = professor_matcher.match_professors(school, posts, course_code)
     except Exception as e:
-        logger.warning("Reddit/matcher pipeline failed: %s", e)
+        logger.warning("RMP course search failed: %s", e)
 
+    # Fallback: extract names from Reddit posts and match on RMP
     if not professors:
+        logger.info("RMP course search returned nothing — falling back to Reddit/matcher")
         try:
-            school_id = rmp_client.get_rmp_school_id(school_data["rmp_school_name"])
-            prof = rmp_client.search_professor(school_id, course_code)
-            if prof:
-                reviews = rmp_client.get_professor_reviews(prof["id"])
-                professors = [{**prof, "reviews": reviews}]
+            reddit_posts = reddit_client.get_professor_posts(
+                school_data["subreddit"], course_code, course_code, limit=15,
+            )
+            professors = professor_matcher.match_professors(school, reddit_posts, course_code)
         except Exception as e:
-            logger.warning("RMP direct fallback failed: %s", e)
+            logger.warning("Reddit/matcher fallback failed: %s", e)
 
     if not professors:
         return _mock_response(course_code, school)
 
     professor_results: list[dict] = []
     deadline = time.perf_counter() + 15.0
+    total_reddit_posts = 0
 
     for prof in professors[:3]:
         if time.perf_counter() > deadline:
             logger.warning("15s budget exceeded — skipping remaining professors")
             break
         try:
+            reddit_posts = reddit_client.get_professor_posts(
+                school_data["subreddit"], prof["name"], course_code, limit=10,
+            )
+            total_reddit_posts += len(reddit_posts)
             insight = insights.generate_insights(
                 professor_name=prof["name"],
                 course_code=course_code,
-                reddit_posts=posts,
+                reddit_posts=reddit_posts,
                 rmp_reviews=prof.get("reviews", []),
             )
             professor_results.append({
@@ -213,5 +218,5 @@ def get_course_insights(school: str, code: str) -> dict:
         "school":            school,
         "professors":        professor_results,
         "source":            "real",
-        "reddit_post_count": len(posts),
+        "reddit_post_count": total_reddit_posts,
     }

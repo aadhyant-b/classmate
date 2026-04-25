@@ -107,6 +107,59 @@ def search_professor(school_id: str, professor_name: str) -> dict | None:
     }
 
 
+def get_professors_for_course(school_name: str, course_code: str, limit: int = 5) -> list[dict]:
+    """Search RMP for professors who have been rated for a specific course code.
+
+    Strategy: search for professors at the school whose ratings include the course code.
+    Use the teacher search with the course code as the query, then verify matches.
+    """
+    try:
+        school_id = get_rmp_school_id(school_name)
+    except ValueError as e:
+        logger.warning("Could not get school ID: %s", e)
+        return []
+
+    query = {
+        "query": (
+            f'{{ newSearch {{ teachers(query: {{text: "{course_code}", schoolID: "{school_id}"}}) '
+            f'{{ edges {{ node {{ id firstName lastName avgRating avgDifficulty '
+            f'numRatings wouldTakeAgainPercent department }} }} }} }} }}'
+        )
+    }
+
+    try:
+        resp = requests.post(_GRAPHQL_URL, json=query, headers=_HEADERS, timeout=_TIMEOUT)
+    except requests.exceptions.RequestException as e:
+        logger.warning("RMP course search failed: %s", e)
+        return []
+
+    if not resp.ok:
+        return []
+
+    try:
+        edges = resp.json()["data"]["newSearch"]["teachers"]["edges"]
+    except (KeyError, ValueError, TypeError):
+        return []
+
+    professors = []
+    for edge in edges[:limit]:
+        node = edge.get("node", {})
+        prof = {
+            "id":               node.get("id", ""),
+            "name":             f"{node.get('firstName', '')} {node.get('lastName', '')}".strip(),
+            "rating":           node.get("avgRating"),
+            "difficulty":       node.get("avgDifficulty"),
+            "num_ratings":      node.get("numRatings", 0),
+            "department":       node.get("department", ""),
+            "would_take_again": node.get("wouldTakeAgainPercent"),
+        }
+        if prof["id"]:
+            prof["reviews"] = get_professor_reviews(prof["id"])
+            professors.append(prof)
+
+    return professors
+
+
 def get_professor_reviews(professor_id: str, limit: int = 10) -> list[dict]:
     """Fetch reviews by scraping the RMP professor page and parsing __NEXT_DATA__."""
     numeric_id = _decode_id(professor_id)
