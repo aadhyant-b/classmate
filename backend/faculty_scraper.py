@@ -346,9 +346,19 @@ def _normalize_course(class_name: str) -> str | None:
     return f"{prefix} {m.group(2).upper()}"
 
 
-def _build_record(prof: dict, reviews: list[dict]) -> dict:
-    """Build a cache record from an RMP professor dict + their full review list."""
+def _build_record(prof: dict, reviews: list[dict], course: str | None = None) -> dict | None:
+    """Build a cache record from an RMP professor dict + their full review list.
+
+    Returns None (caller should skip) if the professor has no recent (2023+) reviews.
+    When course is given, the check is narrowed to reviews for that specific course.
+    """
     recent_reviews = [r for r in reviews if r.get("date", "")[:4] >= "2023"]
+
+    if course is not None:
+        recent_reviews = [r for r in recent_reviews
+                          if _normalize_course(r.get("class_name", "")) == course]
+    if not recent_reviews:
+        return None
 
     # courses_taught drawn from all reviews (not just recent) to maximise coverage
     courses_taught = sorted({
@@ -357,15 +367,19 @@ def _build_record(prof: dict, reviews: list[dict]) -> dict:
         if (code := _normalize_course(r.get("class_name", "")))
     })
 
+    all_dates = [r["date"] for r in reviews if r.get("date")]
+
     return {
         "name":             prof["name"],
         "rmp_id":           prof["id"],
         "rating":           prof.get("rating"),
         "difficulty":       prof.get("difficulty"),
         "num_ratings":      prof.get("num_ratings", 0),
+        "total_ratings":    prof.get("num_ratings", 0),
         "department":       prof.get("department", ""),
         "would_take_again": prof.get("would_take_again"),
         "courses_taught":   courses_taught,
+        "last_reviewed":    max(all_dates) if all_dates else None,
         "reviews":          recent_reviews,
     }
 
@@ -407,6 +421,7 @@ def build_cache() -> None:
         not_found  = 0
         no_ratings = 0
         wrong_dept = 0
+        no_recent  = 0
 
         for i, name in enumerate(names, 1):
             logger.info("[%d/%d] %s", i, len(names), name)
@@ -441,6 +456,10 @@ def build_cache() -> None:
             time.sleep(_RMP_DELAY)
 
             record = _build_record(prof, reviews)
+            if record is None:
+                logger.info("  → no recent reviews (2023+), skipping")
+                no_recent += 1
+                continue
             records.append(record)
             found += 1
             logger.info(
@@ -453,8 +472,8 @@ def build_cache() -> None:
         cache.setdefault(slug, {})[dept] = records
 
         logger.info(
-            "Done: %d stored, %d not on RMP, %d zero-ratings, %d wrong dept",
-            found, not_found, no_ratings, wrong_dept,
+            "Done: %d stored, %d not on RMP, %d zero-ratings, %d wrong dept, %d no recent reviews",
+            found, not_found, no_ratings, wrong_dept, no_recent,
         )
 
     with open(_CACHE_PATH, "w") as f:
