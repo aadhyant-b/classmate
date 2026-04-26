@@ -30,12 +30,95 @@ _RMP_DELAY  = 0.5  # seconds between RMP calls
 
 # One entry per (school, department) to scrape.
 # Add more schools/depts here as ClassMate expands.
+_UNCC = {
+    "school_slug":     "uncc",
+    "rmp_school_name": "University of North Carolina at Charlotte",
+}
+
 _SOURCES = [
     {
-        "school_slug":     "uncc",
-        "rmp_school_name": "University of North Carolina at Charlotte",
-        "department":      "Computer Science",
-        "directory_url":   "https://cci.charlotte.edu/directory/faculty/",
+        **_UNCC,
+        "department":       "Computer Science",
+        "directory_url":    "https://cci.charlotte.edu/directory/faculty/",
+        "rmp_dept_aliases": ["Computer Science", "Information Technology", "Computer Information Systems", "Software Engineering", "Computing"],
+    },
+    {
+        **_UNCC,
+        "department":       "Mathematics",
+        "directory_url":    "https://math.charlotte.edu/people/",
+        "rmp_dept_aliases": ["Mathematics", "Math", "Applied Mathematics", "Statistics"],
+    },
+    {
+        **_UNCC,
+        "department":       "Chemistry",
+        "directory_url":    "https://chemistry.charlotte.edu/people/",
+        "rmp_dept_aliases": ["Chemistry", "Chemical", "Biochemistry", "Organic Chemistry", "Physical Chemistry", "Analytical Chemistry", "Chemistry and Biochemistry"],
+    },
+    {
+        **_UNCC,
+        "department":       "Biology",
+        "directory_url":    "https://biology.charlotte.edu/directory/faculty/",
+        "rmp_dept_aliases": ["Biology", "Biological Sciences", "Bioinformatics", "Biophysics"],
+    },
+    {
+        **_UNCC,
+        "department":       "Physics",
+        "directory_url":    "https://physics.charlotte.edu/about-us/faculty-and-staff/faculty/",
+        "rmp_dept_aliases": ["Physics", "Optical Science", "Engineering Physics"],
+    },
+    {
+        **_UNCC,
+        "department":       "Mechanical Engineering",
+        "directory_url":    "https://mees.charlotte.edu/directory/faculty/",
+        "rmp_dept_aliases": ["Mechanical Engineering", "Engineering Science", "Energy", "Earth Sciences", "Environmental Science"],
+    },
+    {
+        **_UNCC,
+        "department":       "Electrical Engineering",
+        "directory_url":    "https://ece.charlotte.edu/directory/faculty/",
+        "rmp_dept_aliases": ["Electrical Engineering", "Electrical & Computer Engineering", "Computer Engineering", "ECE"],
+    },
+    {
+        **_UNCC,
+        "department":       "Psychology",
+        "directory_url":    "https://psych.charlotte.edu/people/",
+        "rmp_dept_aliases": ["Psychology", "Psychological Science", "Psychological Sciences", "Behavioral Science", "Cognitive Science", "Neuroscience"],
+    },
+    {
+        **_UNCC,
+        "department":       "Sociology",
+        "directory_url":    "https://sociology.charlotte.edu/people/",
+        "rmp_dept_aliases": ["Sociology", "Social Science", "Social Sciences", "Anthropology", "Criminology"],
+    },
+    {
+        **_UNCC,
+        "department":       "History",
+        "directory_url":    "https://history.charlotte.edu/people/",
+        "rmp_dept_aliases": ["History", "Historical Studies", "Humanities", "Social Studies"],
+    },
+    {
+        **_UNCC,
+        "department":       "Political Science",
+        "directory_url":    "https://politicalscience.charlotte.edu/people/",
+        "rmp_dept_aliases": ["Political Science", "Political Studies", "Government", "Public Policy", "International Studies"],
+    },
+    {
+        **_UNCC,
+        "department":       "Philosophy",
+        "directory_url":    "https://philosophy.charlotte.edu/people/",
+        "rmp_dept_aliases": ["Philosophy", "Religion", "Ethics"],
+    },
+    {
+        **_UNCC,
+        "department":       "Criminal Justice",
+        "directory_url":    "https://criminaljustice.charlotte.edu/people/",
+        "rmp_dept_aliases": ["Criminal Justice", "Criminology", "Security Studies"],
+    },
+    {
+        **_UNCC,
+        "department":       "Languages",
+        "directory_url":    "https://languages.charlotte.edu/people/",
+        "rmp_dept_aliases": ["Languages", "Modern Languages", "Spanish", "French", "German", "Chinese", "Japanese", "Arabic", "Foreign Language"],
     },
 ]
 
@@ -45,15 +128,6 @@ _NAV_NOISE = {
     "Map and Directions", "APPLAUSE for Faculty. SUPPORT for Staff.",
 }
 
-# Acceptable RMP department strings for each expected department label.
-_DEPT_ALIASES: dict[str, list[str]] = {
-    "Computer Science": [
-        "Computer Science", "Information Technology", "Computer Information Systems",
-        "Software Engineering", "ITCS", "ITIS", "Computing", "Information Systems",
-    ],
-    "Mathematics": ["Mathematics", "Math", "Statistics", "Applied Mathematics"],
-}
-
 # Canonical prefix for course codes that have multiple spellings on RMP.
 _PREFIX_ALIASES: dict[str, str] = {
     "ITSC": "ITCS",
@@ -61,6 +135,21 @@ _PREFIX_ALIASES: dict[str, str] = {
 }
 
 _NAME_RE = re.compile(r"^[A-Z][a-zA-Z'\-\.]+$")
+
+_CREDENTIAL_PREFIX = re.compile(
+    r"^(?:Dr\.?\s+|Prof\.?\s+|Mr\.?\s+|Ms\.?\s+|Mrs\.?\s+)+", re.IGNORECASE
+)
+_CREDENTIAL_SUFFIX = re.compile(
+    r",\s*(?:Ph\.?D\.?|M\.?D\.?|M\.?S\.?|M\.?A\.?|MPH|MBA|PHD|JD|DDS|DO|RN|P\.?E\.?).*$",
+    re.IGNORECASE,
+)
+
+
+def _clean_name(text: str) -> str:
+    """Strip honorific prefixes and credential suffixes from a display name."""
+    text = _CREDENTIAL_PREFIX.sub("", text).strip()
+    text = _CREDENTIAL_SUFFIX.sub("", text).strip()
+    return text
 
 
 def _is_valid_faculty_name(text: str) -> bool:
@@ -74,9 +163,8 @@ def _is_valid_faculty_name(text: str) -> bool:
     return all(_NAME_RE.match(w) for w in words)
 
 
-def _dept_matches(rmp_dept: str, expected_dept: str) -> bool:
-    """Return True if rmp_dept is an acceptable alias for expected_dept."""
-    aliases = _DEPT_ALIASES.get(expected_dept, [expected_dept])
+def _dept_matches(rmp_dept: str, aliases: list[str]) -> bool:
+    """Return True if rmp_dept contains any of the acceptable alias strings."""
     return any(alias.lower() in rmp_dept.lower() for alias in aliases)
 
 
@@ -100,8 +188,8 @@ def _scrape_cci_names(directory_url: str) -> list[str]:
 
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        for a in soup.find_all("a", href=re.compile(r"/directory/[a-z][a-z\-]+/$")):
-            text = a.get_text(strip=True)
+        for a in soup.find_all("a", href=re.compile(r"/(directory|people)/[a-z][a-z\-0-9]+/$")):
+            text = _clean_name(a.get_text(strip=True))
             if _is_valid_faculty_name(text) and text not in seen:
                 seen.add(text)
                 names.append(text)
@@ -158,10 +246,11 @@ def build_cache() -> None:
             logger.warning("Existing cache unreadable — starting fresh")
 
     for source in _SOURCES:
-        slug     = source["school_slug"]
-        rmp_name = source["rmp_school_name"]
-        dept     = source["department"]
-        dir_url  = source["directory_url"]
+        slug        = source["school_slug"]
+        rmp_name    = source["rmp_school_name"]
+        dept        = source["department"]
+        dir_url     = source["directory_url"]
+        dept_aliases = source["rmp_dept_aliases"]
 
         logger.info("=== %s / %s ===", slug, dept)
 
@@ -196,7 +285,7 @@ def build_cache() -> None:
                 no_ratings += 1
                 continue
 
-            if not _dept_matches(prof["department"], dept):
+            if not _dept_matches(prof["department"], dept_aliases):
                 logger.warning(
                     "  → dept mismatch: RMP says %r, expected %r — skipping",
                     prof["department"], dept,
