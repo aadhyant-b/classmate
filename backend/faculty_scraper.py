@@ -15,6 +15,12 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
+try:
+    from playwright.sync_api import sync_playwright as _sync_playwright
+    _PLAYWRIGHT_AVAILABLE = True
+except ImportError:
+    _PLAYWRIGHT_AVAILABLE = False
+
 from backend import rmp_client
 
 logging.basicConfig(
@@ -33,6 +39,12 @@ _RMP_DELAY  = 0.5  # seconds between RMP calls
 _UNCC = {
     "school_slug":     "uncc",
     "rmp_school_name": "University of North Carolina at Charlotte",
+}
+
+_UNC = {
+    "school_slug":     "unc",
+    "rmp_school_name": "University of North Carolina at Chapel Hill",
+    "scraper":         "playwright",
 }
 
 _SOURCES = [
@@ -120,6 +132,34 @@ _SOURCES = [
         "directory_url":    "https://languages.charlotte.edu/people/",
         "rmp_dept_aliases": ["Languages", "Modern Languages", "Spanish", "French", "German", "Chinese", "Japanese", "Arabic", "Foreign Language"],
     },
+    # ---- UNC Chapel Hill (Playwright required — dept sites block plain requests) ----
+    {
+        **_UNC,
+        "department":       "Computer Science",
+        "directory_url":    "https://cs.unc.edu/about/people?wpv-designation=faculty",
+        "rmp_dept_aliases": ["Computer Science", "Information Science", "Computer Engineering", "Computing"],
+    },
+    {
+        **_UNC,
+        "department":       "Mathematics",
+        "directory_url":    "https://math.unc.edu/faculty/",
+        "rmp_dept_aliases": ["Mathematics", "Math", "Statistics", "Applied Mathematics"],
+        # /faculty-member/<slug>/ links with "Last, First" text — _flip_last_first handles conversion
+    },
+    {
+        **_UNC,
+        "department":       "Statistics",
+        "directory_url":    "https://stor.unc.edu/people/faculty/",
+        "rmp_dept_aliases": ["Statistics", "Operations Research", "Biostatistics", "Data Science"],
+        # /faculty-member/<slug>/ links with "Last, First" text
+    },
+    {
+        **_UNC,
+        "department":       "Biology",
+        "directory_url":    "https://bio.unc.edu/people/faculty/",
+        "rmp_dept_aliases": ["Biology", "Biological Sciences", "Biophysics"],
+        "name_selector":    ".col-sm-10",  # names in card text, not link text
+    },
 ]
 
 _NAV_NOISE = {
@@ -134,7 +174,8 @@ _PREFIX_ALIASES: dict[str, str] = {
     "CSCI": "CSC",
 }
 
-_NAME_RE = re.compile(r"^[A-Z][a-zA-Z'\-\.]+$")
+_NAME_RE       = re.compile(r"^[A-Z][a-zA-Z'\-\.]+$")
+_LAST_FIRST_RE = re.compile(r"^([A-Z][a-zA-Z'\-\.]+),\s+(.+)$")
 
 _CREDENTIAL_PREFIX = re.compile(
     r"^(?:Dr\.?\s+|Prof\.?\s+|Mr\.?\s+|Ms\.?\s+|Mrs\.?\s+)+", re.IGNORECASE
@@ -143,6 +184,16 @@ _CREDENTIAL_SUFFIX = re.compile(
     r",\s*(?:Ph\.?D\.?|M\.?D\.?|M\.?S\.?|M\.?A\.?|MPH|MBA|PHD|JD|DDS|DO|RN|P\.?E\.?).*$",
     re.IGNORECASE,
 )
+
+
+def _flip_last_first(text: str) -> str:
+    """Convert 'Last, First [Middle]' → 'First [Middle] Last'. No-op if not that format."""
+    m = _LAST_FIRST_RE.match(text)
+    if not m:
+        return text
+    last, rest = m.group(1), m.group(2)
+    rest = re.sub(r",\s*(?:Jr\.?|Sr\.?|II|III|IV)$", "", rest).strip()
+    return f"{rest} {last}"
 
 
 def _clean_name(text: str) -> str:
@@ -198,6 +249,64 @@ def _scrape_cci_names(directory_url: str) -> list[str]:
         url  = nxt["href"] if nxt else None
 
     logger.info("Scraped %d unique faculty names", len(names))
+    return names
+
+
+def _scrape_playwright_names(
+    directory_url: str,
+    name_selector: str | None = None,
+) -> list[str]:
+    """Scrape faculty names using headless Chromium (for sites that block plain requests).
+
+    By default finds links whose href matches faculty profile slug patterns and extracts
+    the link text. If name_selector is provided, extracts the first line of each matching
+    element instead (for pages where names aren't in link text, e.g. UNC Biology).
+    """
+    if not _PLAYWRIGHT_AVAILABLE:
+        logger.error("playwright not installed — run: pip install playwright && python -m playwright install chromium")
+        return []
+
+    _PERSON_PATTERN = re.compile(
+        r"/(person|people|faculty-member|faculty-profile)/[a-z][a-z\-0-9]+/?$"
+    )
+
+    seen:  set[str]  = set()
+    names: list[str] = []
+
+    logger.info("Fetching (playwright): %s", directory_url)
+    try:
+        with _sync_playwright() as pw:
+            browser = pw.chromium.launch(headless=True)
+            page    = browser.new_page()
+            page.goto(directory_url, wait_until="networkidle", timeout=20000)
+
+            if name_selector:
+                elements = page.query_selector_all(name_selector)
+                for el in elements:
+                    raw = el.inner_text().strip().split("\n")[0].strip()
+                    text = _flip_last_first(_clean_name(raw))
+                    if _is_valid_faculty_name(text) and text not in seen:
+                        seen.add(text)
+                        names.append(text)
+            else:
+                links = page.query_selector_all("a[href]")
+                for link in links:
+                    href = link.get_attribute("href") or ""
+                    if not _PERSON_PATTERN.search(href):
+                        continue
+                    raw  = link.inner_text().strip()
+                    if not raw:
+                        continue
+                    text = _flip_last_first(_clean_name(raw))
+                    if _is_valid_faculty_name(text) and text not in seen:
+                        seen.add(text)
+                        names.append(text)
+
+            browser.close()
+    except Exception as e:
+        logger.warning("Playwright scrape failed for %s: %s", directory_url, e)
+
+    logger.info("Scraped %d unique faculty names (playwright)", len(names))
     return names
 
 
@@ -261,7 +370,10 @@ def build_cache() -> None:
             logger.error("RMP school lookup failed for %r: %s", rmp_name, e)
             continue
 
-        names = _scrape_cci_names(dir_url)
+        if source.get("scraper") == "playwright":
+            names = _scrape_playwright_names(dir_url, name_selector=source.get("name_selector"))
+        else:
+            names = _scrape_cci_names(dir_url)
 
         records:    list[dict] = []
         found      = 0
