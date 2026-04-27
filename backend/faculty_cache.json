@@ -22342,5 +22342,2402 @@
         ]
       }
     ]
+  },
+  "ncsu": {
+    "Computer Science": [
+      {
+        "name": "David Sturgill",
+        "rmp_id": "VGVhY2hlci0xNjM2NjA5",
+        "rating": 2.6,
+        "difficulty": 4.5,
+        "num_ratings": 140,
+        "total_ratings": 140,
+        "department": "Computer Science",
+        "would_take_again": 37.6,
+        "courses_taught": [
+          "CSC 230",
+          "CSC 246"
+        ],
+        "last_reviewed": "2026-01-16",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Dr. Sturgill is a very miserly, nitpicky, and unaccommodating professor. He expects you to know the content after hearing it once. On exams, he asks overly specific questions and will deduct more points during regrade requests. He takes an eternity to write and grade HWs and will not respond to Ed posts. Do not be fooled by his happy demeanor. -HY",
+            "class_name": "CSC230",
+            "date": "2026-01-16"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "very stubborn. Don't understand any kind of issue he will just go with his opinion. If it is possible please don't take him. Trust me by taking him you will loose your mental peace. ",
+            "class_name": "CSC246",
+            "date": "2026-01-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "He don't care about his students. It doesn't matter if your GPA gets affect and class average is really low for all the exams he will stick to his \" I don't believe in free points so I won't curve\" and not open to accept any alternative or extra credit. Grades everything so hard. Sometimes he do negative grading too. Please avoid him!!",
+            "class_name": "CSC246",
+            "date": "2026-01-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "I enjoyed Operating Systems with Dr. Sturgill. The course is challenging and he holds his students to a high standard, but I never felt unprepared. He is an excellent and knowledgeable lecturer. I recommend this course if you want a rigorous OS experience and are ready for the time commitment. You will leave feeling like you mastered the material.",
+            "class_name": "CSC246",
+            "date": "2026-01-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "For an exercise I put down (example only) 1100 1111 instead of 11001111 and got no credits for it. Asked him for a regrade since it is otherwise identical answer and clearly showed that I understood the concept. He looked into it and said he won't give credits. Don't bother wasting your time with him. Dude doesn't care about his students.",
+            "class_name": "CSC230",
+            "date": "2025-12-21"
+          }
+        ]
+      },
+      {
+        "name": "Sarah Heckman",
+        "rmp_id": "VGVhY2hlci0xNjA1ODQ2",
+        "rating": 3.9,
+        "difficulty": 3.3,
+        "num_ratings": 104,
+        "total_ratings": 104,
+        "department": "Computer Science",
+        "would_take_again": 91.7808,
+        "courses_taught": [
+          "CSC 216",
+          "CSC 326"
+        ],
+        "last_reviewed": "2026-04-24",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 5,
+            "review_text": "She seems nice, but I do not like the lectures. Fast-paced, lots of info presented, and not getting enough from them. Projects take a lot of time, and they have components with deadlines during exam week. I wish I had started P1 sooner. Thankfully, we were allowed a partner for the final project. ",
+            "class_name": "CSC216",
+            "date": "2026-04-24"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "If you go to every class and take good notes then you can stay on top but if you miss even one class be prepared to do a lot of work to catch back up. The projects are not hard but the instructions are unclear, so you will often spend many hours rewriting code, because the instructions and the staff test code expectations can be different.",
+            "class_name": "CSC216",
+            "date": "2026-04-20"
+          },
+          {
+            "rating": 3,
+            "difficulty": 1,
+            "review_text": "Easy class with two lab projects constituting bulk of the grade. Midterm and final were each 15% only. Dr. Heckman lectures a lot with several participation activities in class. Attendance is mandatory.",
+            "class_name": "CSC326",
+            "date": "2026-03-17"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Dr. Heckman is a good lecturer but she moves really fast. However, the class is really just hard. There's project milestones and lab deadlines on the same week as an exam.\n\nProject directions also contain typos, confusing language, and broken links. And not to mention the MILLION research studies they keep hounding you to participate in.",
+            "class_name": "CSC216",
+            "date": "2026-03-08"
+          },
+          {
+            "rating": 1,
+            "difficulty": 2,
+            "review_text": "The course has been difficult to follow because the lectures rarely align with the lab work, leaving many concepts unclear. The instructor's explanations feel scattered, and her interactions with students often come across as curt, which makes the class atmosphere uncomfortable and discouraging.",
+            "class_name": "CSC326",
+            "date": "2025-12-07"
+          }
+        ]
+      },
+      {
+        "name": "Suzanne Balik",
+        "rmp_id": "VGVhY2hlci0xNjI1Mg==",
+        "rating": 2.4,
+        "difficulty": 3.2,
+        "num_ratings": 75,
+        "total_ratings": 75,
+        "department": "Computer Science",
+        "would_take_again": 28.8462,
+        "courses_taught": [
+          "COS 220",
+          "CSC 116",
+          "CSC 216",
+          "CSC 230"
+        ],
+        "last_reviewed": "2025-12-09",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Balik provides everything you need to be successful in this course and it's clear she genuinely wants everyone to do well. The only downside is that the lecture is a bit slow and dry but if you make sure you are caffeinated she moves at the perfect pace for you to take notes and actually absorb information during lecture.",
+            "class_name": "CSC230",
+            "date": "2025-12-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "lectures are required but its so hard to learn from them, she is unorganized, doesnt record the lectures, and makes the slides impossible to study. \nwaits until last minute to grade big projects so theres nothing you can do for your grade if it drops. confusing and unorganized project requirements. exam two is a GIANT jump of topics after the first",
+            "class_name": "CSC116",
+            "date": "2025-12-05"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "She just sucks as a teacher and person. do not take her class and nc state should of fired her 500 years ago",
+            "class_name": "COS220",
+            "date": "2025-12-02"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I didn't wear a seatbelt on my way to class. If you can infer what I mean.",
+            "class_name": "CSC216",
+            "date": "2025-11-14"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "The lectures were dry but fortunately the class itself is pretty easy so it doesn't really matter. Tons of homework and a mandatory online textbook. Cares a lot about her students but the tests/projects are graded really harsh. I would recommend Balik if you are new to Java, but if you are already familiar you'll be very bored.",
+            "class_name": "CSC116",
+            "date": "2025-05-06"
+          }
+        ]
+      },
+      {
+        "name": "Jason King",
+        "rmp_id": "VGVhY2hlci0yMTIzMzEx",
+        "rating": 3.5,
+        "difficulty": 3.9,
+        "num_ratings": 74,
+        "total_ratings": 74,
+        "department": "Computer Science",
+        "would_take_again": 75.6757,
+        "courses_taught": [
+          "CSC 316"
+        ],
+        "last_reviewed": "2026-04-21",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "12 Weekly coding workshops will take anywhere from ~2-5hrs. Very straightforward instructions. His slides are good for studying. Tests are very similar to workshop-written activities. I struggled initially, but got the hang of it. Semester project (proposal, coding, reflection), but it is spread out nicely. He is a cool dude who uses Kahoot a lot.",
+            "class_name": "CSC316",
+            "date": "2026-04-21"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Dr. King is a caring professor teaching a challenging course, and student frustration with the material is sometimes unfairly directed at him. While his lecture style wasn't my personal preference, he is a good professor who puts real effort into making DSA engaging. This is an important course, and the effort you put into it will pay off.",
+            "class_name": "CSC316",
+            "date": "2026-01-09"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Dr. King is a solid lecturer and provides recordings of all the lectures so you can watch them at any time. The workshops can be a lot of work but are manageable and helpful for studying. The class moves quickly, so it's important to stay on top of the assignments. The tests are long for the amount of time given, so you need to work efficiently.",
+            "class_name": "CSC316",
+            "date": "2026-01-08"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Dr. King is a good lecturer and very knowledgeable, but is overly strict especially about academic integrity. The class is very fast-paced with lots of content to learn. Exams have too much content and not enough time, so memorization is key. Workshops will take up time but will be your best friend. Beware of the MGR and form good study groups. -HY",
+            "class_name": "CSC316",
+            "date": "2025-12-18"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Very fair professor, knows we have an insane amount of content and does give a lot of work. But the assignments aren't super hard and aren't strictly graded. And we get late penalty waivers. Tests not too hard and they are fair. Great class organization. You must put in a lot of work, and I caution taking with CSC 230. But King is great for 316.",
+            "class_name": "CSC316",
+            "date": "2025-12-17"
+          }
+        ]
+      },
+      {
+        "name": "Lina Battestilli",
+        "rmp_id": "VGVhY2hlci0xOTkzOTY5",
+        "rating": 3.6,
+        "difficulty": 2.7,
+        "num_ratings": 64,
+        "total_ratings": 64,
+        "department": "Computer Science",
+        "would_take_again": 67.7966,
+        "courses_taught": [
+          "CSC 113"
+        ],
+        "last_reviewed": "2026-03-10",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "The flipped style of the classroom renders the excruciatingly long and boring lecture period for the class to be entirely unnecessary. No one pays attention during lecture. Also, in our class, Dr. Battestilli wasnt great with technology aside from Matlab. ",
+            "class_name": "CSC113",
+            "date": "2026-03-10"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Dr. B genuinely cares about her students. The lectures are long and labs are longer, but the work given is good practice and prepares you for exams. It is helpful to come in with previous coding knowledge, but is not necessary. The exams were fair, labs and weekly \"graders\" were helpful, and projects were difficult but you can work with partners.",
+            "class_name": "CSC113",
+            "date": "2026-02-18"
+          },
+          {
+            "rating": 2,
+            "difficulty": 1,
+            "review_text": "She loves to say that flipped classrooms help the students learn, but all the material she gave us was pointless. The labs and the TAs were the only reason I understood the class at all. She tries to be motivational, but no one pays attention during lectures because they get nothing out of it other than participation. Attend the online section.",
+            "class_name": "CSC113",
+            "date": "2025-12-11"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. B truly cares about her students and has awesome TAs. The labs are long and boring, but they're relatively easy. Projects are significantly harder, but you can work with partners if you want. With it being such a big class, it takes a long time to get grades back, but that's not a huge deal to me. Lectures are boring and not too helpful to me.",
+            "class_name": "CSC113",
+            "date": "2025-12-10"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "I have no personal issues with Dr. B, however the class setup for CSC113 is egregiously mind-numbing. Despite it being a 3 credit hour class, the amount of work you have to do outside of class (projects, online learning, mini coding work) takes up your whole week. Projects are long and can be hard. I feel she expects too much for a beginner class.",
+            "class_name": "CSC113",
+            "date": "2025-11-18"
+          }
+        ]
+      },
+      {
+        "name": "Toniann Marini",
+        "rmp_id": "VGVhY2hlci0xMzA2ODA0",
+        "rating": 1.7,
+        "difficulty": 2.9,
+        "num_ratings": 48,
+        "total_ratings": 48,
+        "department": "Computer Science",
+        "would_take_again": 26.3158,
+        "courses_taught": [],
+        "last_reviewed": "2024-05-20",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "This is one of the only sections that requires you to buy the $100 textbook for your grade. If you're shooting for an A+, you need to buy the textbook. Getting an A without the textbook is doable, but I strongly recommend finding a different section.",
+            "class_name": "E101",
+            "date": "2024-05-20"
+          },
+          {
+            "rating": 2,
+            "difficulty": 1,
+            "review_text": "Very useless class. Very easy though. Nothing against the professor that much, she and Dr. Adams were occasionally funny. But just work on other assignments during the lectures. ",
+            "class_name": "E101",
+            "date": "2024-05-02"
+          }
+        ]
+      },
+      {
+        "name": "Steffen Heber",
+        "rmp_id": "VGVhY2hlci0xNjMxOTgy",
+        "rating": 3.9,
+        "difficulty": 3.5,
+        "num_ratings": 36,
+        "total_ratings": 36,
+        "department": "Computer Science",
+        "would_take_again": 71.4286,
+        "courses_taught": [
+          "CS 505",
+          "CSC 505"
+        ],
+        "last_reviewed": "2026-03-28",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "This class was really good. And you will learn a lot about DSA that is directly relevant to LeetCode problem-solving. He provides generous grading and curving. Best of all, he teaches really well, and if you follow the class (no mandatory attendance policy), you should be able to get an A grade easily.",
+            "class_name": "CSC505",
+            "date": "2026-03-28"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Extremely high-quality class and one of the best professors at NCSU. The tests make up most of the grade and they are definitely not easy but with curving and generous grading its more than fair.  Take thorough notes, especially when he steps through an algo in class and be familiar with algebra and simplifying terms like 2^log_2(n)",
+            "class_name": "CSC505",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "The professor is very passionate about the subject, and extremely clear about the grading, homework, quizes and final exam. It's an interesting and scoring subject if you study regularly. The professor even gives mock exam papers with solutions before mid term and final exams, so the students can prepare and have an idea on what to expect in exam. ",
+            "class_name": "CS505",
+            "date": "2025-10-30"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Prof Heber is really passionate about the subject which can be seen through his enthusiasm and teaching style. Would definitely recommend taking CSC 505 under him in the Fall semester (some other prof teaches it in the Spring semester).",
+            "class_name": "CSC505",
+            "date": "2025-02-26"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "He Included a lot of mathematics in the course that was kinda unnecessary but overall really helped clear some of the basic concepts for CSC505 and liked his teaching style, also liked the fact that attendance was not mandatory and I could just watch the recordings.",
+            "class_name": "CSC505",
+            "date": "2025-01-17"
+          }
+        ]
+      },
+      {
+        "name": "Min Chi",
+        "rmp_id": "VGVhY2hlci0yMDQxMDc1",
+        "rating": 2.9,
+        "difficulty": 3.1,
+        "num_ratings": 34,
+        "total_ratings": 34,
+        "department": "Computer Science",
+        "would_take_again": 36.8421,
+        "courses_taught": [
+          "CSC 522"
+        ],
+        "last_reviewed": "2026-03-31",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "The course includes group projects and homework requiring consistent effort. Grading policies are strict, including penalties for unsuccessful regrade requests. Lecture style may not be engaging for all students",
+            "class_name": "CSC522",
+            "date": "2026-03-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Her strict \"no partial credit\" policy is frustrating - she probably thinks wrong answers mean you don't understand, but I was swamped with other coursework, even making presentations the night before exams with little sleep. While generally decent, this harsh grading dropped my letter grade penalizing me juggling multiple commitments.",
+            "class_name": "CSC522",
+            "date": "2024-12-13"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Dr. Chi is a kind person and good lecturer, but I cannot emphasize enough how terrible the TAs are. Regardless of how many times a question is asked, the TAs reply: \"find it in the lectures somewhere,\" even if the question cannot be answered by the lectures. This would be a great class if the TAs would bother providing the slightest bit of help. ",
+            "class_name": "CSC522",
+            "date": "2024-12-12"
+          },
+          {
+            "rating": 4,
+            "difficulty": 5,
+            "review_text": "Professor is very knowledgeable, but a tough grader. This is not the hardest class I took in my Masters, but it is the lowest grade I've gotten. TA's fairly useless, telling people to \"check the lecture\" on questions where people confirmed they already checked. Grading is all-or-nothing. One rounding error I made in a homework lost me 30 points.",
+            "class_name": "CSC522",
+            "date": "2024-12-11"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Dr. Chi's class is entirely group oriented, except, conveniently, the exams. All your grades, apart from exams, will be shared with your group despite supposedly half the presentation being graded on how well you presented as an individual. Professor is also profoundly lazy when it comes to grading, specifically pertaining to how she grades.",
+            "class_name": "CSC522",
+            "date": "2024-12-09"
+          }
+        ]
+      },
+      {
+        "name": "Kemafor Ogan",
+        "rmp_id": "VGVhY2hlci0xMjk1Mjg3",
+        "rating": 1.4,
+        "difficulty": 3.8,
+        "num_ratings": 32,
+        "total_ratings": 32,
+        "department": "Computer Science",
+        "would_take_again": 4.5455,
+        "courses_taught": [
+          "CSC 440",
+          "CSC 540"
+        ],
+        "last_reviewed": "2025-12-04",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Hate is a strong word, and as a child of God, I really try not to use it toward anyone, but this woman tested every bit of that restraint. She is completely disorganized and barely teaches. This class was an absolute waste of a semester and a total waste of my time.",
+            "class_name": "CSC440",
+            "date": "2025-12-04"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Many students take Prof. Kemafor's class only to fulfill credit requirements, not because she's a  great professor. She lacks teaching skills and professionalism. I even heard she once asked a student for a picture of her medicine bottle and purchase receipt, even though she already provided a work note. This is privacy violation! Such a shame. ",
+            "class_name": "CSC540",
+            "date": "2024-12-11"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Worst professor. Always unprepared, unresponsive, and doesn't seem to care about her students. Instead of focusing on teaching well and making the course enjoyable and rewarding, she's more concerned with questioning students integrity. She even scans students' exam paper to compare what they wrote before and after restroom break during exam. ",
+            "class_name": "CSC540",
+            "date": "2024-12-11"
+          }
+        ]
+      },
+      {
+        "name": "Alan Watkins",
+        "rmp_id": "VGVhY2hlci05MjE1NTk=",
+        "rating": 2.2,
+        "difficulty": 3.9,
+        "num_ratings": 24,
+        "total_ratings": 24,
+        "department": "Computer Science",
+        "would_take_again": 18.75,
+        "courses_taught": [
+          "CSC 226",
+          "CSC 246"
+        ],
+        "last_reviewed": "2025-08-12",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Class consisted of 10 hws, 3 tests and a final. Given an online book and lectures given from 2+ years ago. Tests are all written response. Not a terribly hard class but given so little material, resources, and grading criteria. It makes it 2x to 3x harder and more time consuming than a normal discrete class. Doable if you put in the time and effort",
+            "class_name": "CSC226",
+            "date": "2025-08-12"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Very little learning material is provided.  Don't expect any ideas to be explained well. You will lose (many) points on assignments for unspecified requirements. If you ask a question, expect ridiculous non-answers. It doesn't matter how reasonable or polite you are, his return communication is always rude, weird, and immature.",
+            "class_name": "CSC246",
+            "date": "2025-08-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Save yourself the struggle and wait until the Fall. I just lost 60% of the last HW grade because I formatted my program wrong (it worked fine). Not the hardest class I've ever taken, but definitely the one where I've had the worst grades.",
+            "class_name": "CSC246",
+            "date": "2025-07-25"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "The first homework had incorrect references to the textbook and asked questions about things we would not cover until after the second test, so I knew this class would be bad. Prepare for prolific typos in official communication, blatant coding errors in assignments, and a refusal to explain questionable test and HW grading. Rubric has secret reqs.",
+            "class_name": "CSC246",
+            "date": "2025-07-17"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Single worst professor I have been unfortunate enough to encounter here. His lectures are meandering and poor, he mostly just reads the slides&#8212;except for when he goes on lengthy and irrelevant tangents. Grading is ridiculous, the entire class has lost points for hidden requirements on HW assignments and tests, and he refused to regrade or explain.",
+            "class_name": "CSC246",
+            "date": "2025-07-17"
+          }
+        ]
+      },
+      {
+        "name": "Timothy Menzies",
+        "rmp_id": "VGVhY2hlci0xOTcxMjg4",
+        "rating": 2.2,
+        "difficulty": 2.3,
+        "num_ratings": 19,
+        "total_ratings": 19,
+        "department": "Computer Science",
+        "would_take_again": 15.7895,
+        "courses_taught": [
+          "CSC 510",
+          "CSC 591"
+        ],
+        "last_reviewed": "2026-03-31",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Dr. Tim is very kind and made a strong effort to make the course accessible for students. He provided multiple opportunities for extra credit and was quite accommodating. Lectures could feel somewhat disorganized at times, likely due to ongoing course restructuring. Overall, it was a relaxed course with manageable deadlines and workload.",
+            "class_name": "CSC510",
+            "date": "2026-03-31"
+          },
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "Definitely one of the more knowledgable professors at NC State. The lectures are a bit erratic, but if you listen to what he says you can learn a lot. Most of his lectures regard his experiences during industry. Most bad reviews on this site come from very lazy students who never went to class to begin with. ",
+            "class_name": "CSC510",
+            "date": "2025-04-28"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Prereq for 515, 519, 710, and 712, but I can't recommend it unless absolutely necessary. Lectures were rambling and unstructured&#8212;I stopped attending after week 4. Heavy, poorly organized group work. Not very hard, but tedious and frustrating. Redundant if you had a serious undergraduate software engineering course. One midterm - optional final.",
+            "class_name": "CSC510",
+            "date": "2025-04-24"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "His teaching is poor. Lectures are chaotic; attendance alone won't help with exams. Heavy workload: weekly assignments first half, then lit review. Extremely strict grading; final paper needs near-publication quality. Requires in-person group meetings and discusses grades only face-to-face. Hinted at curve before finals but never followed through. ",
+            "class_name": "CSC591",
+            "date": "2024-12-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "I took ASE under him. He doesn't know how to teach, and is very much full of himself.  \nHe cites himself, jumps from one concept to another. Doesn't teach but mentions new concepts as if we should know them. Neither are his notes any useful. \nNever take his class unless you know what he is teaching and are only doing it for the grade.",
+            "class_name": "CSC591",
+            "date": "2024-10-02"
+          }
+        ]
+      },
+      {
+        "name": "Benjamin Watson",
+        "rmp_id": "VGVhY2hlci0xMjQwNjcw",
+        "rating": 2.8,
+        "difficulty": 2.9,
+        "num_ratings": 18,
+        "total_ratings": 18,
+        "department": "Computer Science",
+        "would_take_again": 50,
+        "courses_taught": [
+          "CSC 461",
+          "CSC 561"
+        ],
+        "last_reviewed": "2025-12-02",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Perfectly fine lecturer, does things flipped so classes are mostly just time to work on stuff, and you watch lecture videos at home. He's a very very nice and fun guy, knows what he's talking about. If you like coding and are interested in games, this class is amazing. Projects are tricky but fun and satisfying. Expectations are clear.",
+            "class_name": "CSC461",
+            "date": "2025-12-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Good course and professor.",
+            "class_name": "CSC461",
+            "date": "2025-09-27"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "The class is not heavy, but u need to learn some stuff yourself, but he is a really nice guy and willing to help student, I love this guy, projects are super fun 2",
+            "class_name": "CSC461",
+            "date": "2024-03-22"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "Don't expect to learn new things from lectures. The programming assignments are nicely set up and not too difficult. It would've been better if the lecturer actually taught something in class. The grading is also pretty lenient.",
+            "class_name": "CSC561",
+            "date": "2024-03-21"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Dr. Watson's class may feel a bit unorganized at times but I found the work he assigns to be reasonable and fullfilling and the material overall is presented well. He is a very caring professor and gives plenty of oppotunity to go above and beyond or earn extra credit.",
+            "class_name": "CSC461",
+            "date": "2023-01-09"
+          }
+        ]
+      },
+      {
+        "name": "William Enck",
+        "rmp_id": "VGVhY2hlci0xOTY0NTgw",
+        "rating": 4.5,
+        "difficulty": 3.6,
+        "num_ratings": 16,
+        "total_ratings": 16,
+        "department": "Computer Science",
+        "would_take_again": 93.3333,
+        "courses_taught": [
+          "CSC 474",
+          "CSC 574"
+        ],
+        "last_reviewed": "2025-12-13",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "A solid teacher & I liked the class, but it felt as though you were given a bunch of information every week with little in the way to apply it; just partially through big projects & discussion papers. Then the exams don't quite test what you spend so much time learning and studying. That and it takes a long time to hear back on grades. ",
+            "class_name": "CSC574",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "The teaching is great also reasonable HW, I learn a lot in the class",
+            "class_name": "CSC474",
+            "date": "2024-03-22"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Wonderful professor! He's very clear about what's expected on tests and homework assignments and gives you ample time to do them. He's super engaging during class and makes difficult networking concepts easy to understand. Would take again in a heartbeat!",
+            "class_name": "CSC474",
+            "date": "2023-12-16"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "One of the better professors I've had. I'm not very interested in security but he did a great job keeping the lectures interesting, and it's not too much work outside of class. Always very transparent about whats expected on tests, and will go over homework/questions in class the lecture before the test. Very conceptual class, no big projects. \n",
+            "class_name": "CSC474",
+            "date": "2023-11-10"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Great lectures, very concerned with making sure students understand the material. Tests weren't easy but weren't unfair, he not only has a review day before the test, he reviews the test after its been graded and its accepting of regrades. HomeWorks were involved but involved either material to prepare you for the test or practical applications.",
+            "class_name": "CSC474",
+            "date": "2023-03-29"
+          }
+        ]
+      },
+      {
+        "name": "Rada Chirkova",
+        "rmp_id": "VGVhY2hlci0xODQ2OTY2",
+        "rating": 3.3,
+        "difficulty": 3.1,
+        "num_ratings": 15,
+        "total_ratings": 15,
+        "department": "Computer Science",
+        "would_take_again": 60,
+        "courses_taught": [
+          "CSC 440",
+          "CSC 540"
+        ],
+        "last_reviewed": "2025-05-12",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Difficult to make an A in this class, but very well-structured course and Dr. Chirkova is a great professor. Strict and old-school teaching style which made the course clear and easy to follow. You will definitely learn a lot. Zero tolerance for dishonest students unlike others profs, which I appreciated. ",
+            "class_name": "CSC540",
+            "date": "2025-05-12"
+          }
+        ]
+      },
+      {
+        "name": "Laurie Williams",
+        "rmp_id": "VGVhY2hlci05MTc2NzE=",
+        "rating": 1.8,
+        "difficulty": 4.2,
+        "num_ratings": 14,
+        "total_ratings": 14,
+        "department": "Computer Science",
+        "would_take_again": 8.3333,
+        "courses_taught": [
+          "CSC 415",
+          "CSC 515"
+        ],
+        "last_reviewed": "2025-05-02",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "Software Security is a really fun class if you're interested in cybersecurity. Dr. Williams does a great job of making sure everyone understands the concepts, and the workshops/projects are very interesting. Its a great introductory way to learn about cybersecurity, especially if you don't have too much background knowledge.",
+            "class_name": "CSC415",
+            "date": "2025-05-02"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Someone said this class teaches practical skills - I disagree, the course focuses a lot on how to test and use tools and databases, but it doesn't go into actually resolving security issues at all.  As a software engineer you will mostly focus on resolution.  Finding is trivial - a security team or static analysis tool will be responsible for this.",
+            "class_name": "CSC515",
+            "date": "2025-04-02"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Painfully tedious and time-consuming projects, basically spending entire semester analyzing a codebase for vulnerabilities which has potential but it's very repetitive and time consuming.  It would be much better if the requirements were more reasonable, and the work could be divided so that everyone learned something, but it's just too much.",
+            "class_name": "CSC515",
+            "date": "2025-04-02"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "She isn't that bad. She's pretty nice, and her lectures are decent, but her exams have ambiguous or trick questions, and the instructions for the projects are either outdated or need external sources to help keep up. I don't recommend taking her since she isn't clear on some instructions. You learn practical skills at least for cybersec",
+            "class_name": "CSC515",
+            "date": "2025-04-02"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Very boring lectures last only about 30 minutes and is primarily group projects and discussions.  Very disorganized and vague projects and exams, for example an exam question might be: list 3 attributes about X only for points to be marked off for not explaining or going into details.  Generally unresponsive and doesn't read or answer questions.",
+            "class_name": "CSC515",
+            "date": "2025-03-22"
+          }
+        ]
+      },
+      {
+        "name": "Rudra Dutta",
+        "rmp_id": "VGVhY2hlci0xNjE1NzM5",
+        "rating": 2.7,
+        "difficulty": 3.6,
+        "num_ratings": 13,
+        "total_ratings": 13,
+        "department": "Computer Science",
+        "would_take_again": 50,
+        "courses_taught": [
+          "CSC 401",
+          "CSC 453",
+          "CSC 570",
+          "CSC 573",
+          "ECE 573"
+        ],
+        "last_reviewed": "2024-05-07",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "One of the few instances where a flipped class was beneficial. Great at answering questions comprehensively and is extremely open about how the class operates. The class felt like a disproportionately high amount of work at first, but it smoothed out over the course of the semester. ",
+            "class_name": "CSC401",
+            "date": "2024-05-07"
+          }
+        ]
+      },
+      {
+        "name": "Xipeng Shen",
+        "rmp_id": "VGVhY2hlci0yMTk3NTk4",
+        "rating": 3.1,
+        "difficulty": 3.5,
+        "num_ratings": 13,
+        "total_ratings": 13,
+        "department": "Computer Science",
+        "would_take_again": 46.1538,
+        "courses_taught": [
+          "CSC 512"
+        ],
+        "last_reviewed": "2024-12-17",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Knowledgeable professor who gave fairly interesting lectures and improved my knowledge of the subject. Ill-equipped to help with homework, stripped from a previous year's student's assignment submissions. Office hours completely useless. Interesting but challenging course project - if you can DIY, the course will be worth it despite the challenges.",
+            "class_name": "CSC512",
+            "date": "2024-12-17"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Lectures were pretty monotonous and all over the place but the course itself required minimal work. A few homework assignments (coding/writing) and a group project. Very little guidance or help when it came to the group project (LLVM) which is notoriously difficult and undocumented so beware of that. Didn't get a lot out of this course.",
+            "class_name": "CSC512",
+            "date": "2024-12-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "The course was made very difficult not because of the syllabus but because of the inadequate information provided. The lectures were also pretty boring with little to no interaction between the professor and students. I hope I still had an option to drop the course but sadly there isn't. ",
+            "class_name": "CSC512",
+            "date": "2024-11-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "The HWs and Proj are hard but they are graded very generously. Do HWs and review solutions for HWs, and then you won't have any problems with the one midterm(No final exam). Lack of instructions for the project(LLVM setup). Collaboration between students for the project. Dr. Shen cared about how to make the course more comfortable for students.",
+            "class_name": "CSC512",
+            "date": "2023-12-26"
+          }
+        ]
+      },
+      {
+        "name": "Frank Mueller",
+        "rmp_id": "VGVhY2hlci0xNTkzMDc2",
+        "rating": 3.3,
+        "difficulty": 3.8,
+        "num_ratings": 12,
+        "total_ratings": 12,
+        "department": "Computer Science",
+        "would_take_again": 33.3333,
+        "courses_taught": [
+          "CSC 246",
+          "CSC 548",
+          "CSC 549"
+        ],
+        "last_reviewed": "2025-05-10",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Very good class, but there is a lot of information to cover before tests (hundreds of slides' worth of material). Grading tends to benefit the student, and the projects are challenging yet very interesting.",
+            "class_name": "CSC549",
+            "date": "2025-05-10"
+          }
+        ]
+      },
+      {
+        "name": "Munindar Singh",
+        "rmp_id": "VGVhY2hlci0xNzIzMzA3",
+        "rating": 2.2,
+        "difficulty": 3.6,
+        "num_ratings": 11,
+        "total_ratings": 11,
+        "department": "Computer Science",
+        "would_take_again": 33.3333,
+        "courses_taught": [
+          "CSC 450",
+          "CSC 491",
+          "CSC 495",
+          "CSC 555",
+          "CSC 791"
+        ],
+        "last_reviewed": "2023-12-14",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Dr. Singh is a very experienced and distinguished professor. His lectures, though, are very dry. He prints out the powerpoint slides and marks them up on the doc cam. The topics (for 455/555 at least) are frequently very dry. There is a relationship between the topic and computer science, but Dr. Singh does not attempt to highlight these.",
+            "class_name": "CSC555",
+            "date": "2023-12-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "Overall enjoyed this class. The lecture topics seemed to be a bit far apart from each other but I guess that's just how the course is structured. There are short word limits for written assignments and a few interesting coding assignments. He does ask lots of questions and calls on people so some may not enjoy that.",
+            "class_name": "CSC450",
+            "date": "2023-11-24"
+          }
+        ]
+      },
+      {
+        "name": "Collin Lynch",
+        "rmp_id": "VGVhY2hlci0yMTE3NDU3",
+        "rating": 2.2,
+        "difficulty": 3.7,
+        "num_ratings": 9,
+        "total_ratings": 9,
+        "department": "Computer Science",
+        "would_take_again": 12.5,
+        "courses_taught": [
+          "CSC 520"
+        ],
+        "last_reviewed": "2024-11-25",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "DO NOT TAKE HIS CSC520",
+            "class_name": "CSC520",
+            "date": "2024-11-25"
+          }
+        ]
+      },
+      {
+        "name": "Muhammad Shahzad",
+        "rmp_id": "VGVhY2hlci0yMjE1ODA1",
+        "rating": 2.3,
+        "difficulty": 1.6,
+        "num_ratings": 8,
+        "total_ratings": 8,
+        "department": "Computer Science",
+        "would_take_again": 37.5,
+        "courses_taught": [
+          "CSC 453",
+          "ECE 573"
+        ],
+        "last_reviewed": "2024-01-07",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "He is a very good professor. Communicates and teaches well, has a lot of knowledge in this field. But the first assignment was really bad, he could've asked us to do the same thing with a better network simulation tool or could've just given some other useful assignment. The exams have questions about stuff not really taught or solved in class.",
+            "class_name": "ECE573",
+            "date": "2024-01-07"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "His mental status is not good. ",
+            "class_name": "ECE573",
+            "date": "2023-07-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "I will never take his class.\nHis pronunciation was really bad, and even his speech rate was so fast.\nAlso, he never checks the course website or his e-mail.\nNot only that, he always starts his class late, and end it early. The original time for a class is 75 min, but I think his average lecture time is 60 mins.",
+            "class_name": "ECE573",
+            "date": "2023-04-09"
+          }
+        ]
+      },
+      {
+        "name": "Alexandros Kapravelos",
+        "rmp_id": "VGVhY2hlci0yMjQ4ODQw",
+        "rating": 3.9,
+        "difficulty": 4.4,
+        "num_ratings": 8,
+        "total_ratings": 8,
+        "department": "Computer Science",
+        "would_take_again": 62.5,
+        "courses_taught": [
+          "CSC 405"
+        ],
+        "last_reviewed": "2025-04-26",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I am paying for an education, not to be told, \"This homework is 25% of your grade. Good luck.\" Class content is important, but you might as well watch YouTube videos if THIS is the instruction. Take anyone else's class.",
+            "class_name": "CSC405",
+            "date": "2025-04-26"
+          },
+          {
+            "rating": 4,
+            "difficulty": 5,
+            "review_text": "Very knowledgeable professor, but a bit hard to access outside of class. Attendance wasn't mandatory but I HEAVILY recommend going each day. Lots of students didn't show up and then suffered greatly for it. \"Homeworks\" are very hard if you don't have a background in security already--I spent >30 hours on each. It is possible to do well though.",
+            "class_name": "CSC405",
+            "date": "2025-04-21"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I absolutely adore Professor Alex! He is good-natured, funny, and extremely talented in the field of computer security. Three \"homeworks\" (really projects) for 25%, and participation in HackPack CTF at the end of the semester for 25% make up your grade. Start early, ask for help, and it's an easy A!",
+            "class_name": "CSC405",
+            "date": "2025-04-03"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Other reviews are too harsh. There are no midterms, and the final is an open-note cybersecurity competition, making it very low-pressure. The course also teaches a lot of skills not covered in other classes. While the homework is time-consuming, it's the only graded component, and putting in the effort virtually guarantees an A.",
+            "class_name": "CSC405",
+            "date": "2024-12-03"
+          }
+        ]
+      },
+      {
+        "name": "Sandeep Kuttal",
+        "rmp_id": "VGVhY2hlci0zMDEwMDM0",
+        "rating": 3.3,
+        "difficulty": 2.8,
+        "num_ratings": 6,
+        "total_ratings": 6,
+        "department": "Computer Science",
+        "would_take_again": 66.6667,
+        "courses_taught": [
+          "CSC 554",
+          "CSC 591"
+        ],
+        "last_reviewed": "2026-01-26",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Kuttal is a great professor! She is also very nice and truly cares about her students' success. I personally really enjoyed her class and would definitely recommend.",
+            "class_name": "CSC554",
+            "date": "2026-01-26"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Dr. Kuttal is knowledgeable, and the other reviews that harp on her behavior in class are not fair, as the class did in fact, have behavioral problems that interfered with her ability to teach. The class is mainly based on a group project, so choose carefully. The tests were not that bad if you attended class and read over the powerpoints.",
+            "class_name": "CSC554",
+            "date": "2025-04-28"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Kuttal is fine. Her lectures were a bit mundane. The class usually did not have exams, but this was the first semester where they implemented them, which really sucked. Overall I would not take the class again. The grading criteria for the assignments was nonexistent so you were pretty much in the dark about what to do or how they were grading it.",
+            "class_name": "CSC554",
+            "date": "2025-04-22"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "The instructor has been annoyed with anyone. The instructor spends too much time. The instructor goes around the classroom to check what people are doing and \nscolds people for talking or smiling in class. The irony is that the instructor points out that the \nclass is too quiet, yet she does not want people to talk.",
+            "class_name": "CSC554",
+            "date": "2025-04-22"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "This review is for Programmer Centered Design/Research. It was a nice class, focused on reading and understanding major research papers in the field especially considering Human-Computer Interaction, and UI/UX design. One semester project focused on interface design and user study - it will really help you understand how to conduct such studies.",
+            "class_name": "CSC591",
+            "date": "2024-12-17"
+          }
+        ]
+      },
+      {
+        "name": "Kathryn Stolee",
+        "rmp_id": "VGVhY2hlci0yMjUyMDM1",
+        "rating": 3.7,
+        "difficulty": 2.8,
+        "num_ratings": 6,
+        "total_ratings": 6,
+        "department": "Computer Science",
+        "would_take_again": 66.6667,
+        "courses_taught": [
+          "CSC 326",
+          "CSC 408"
+        ],
+        "last_reviewed": "2025-04-24",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Software product management was a great class that taught me more about user facing jobs related to software and what they look like. Work was mainly listening to podcasts from industry leaders and completing two group projects focused on evaluating and improving software products. No coding. Dr. Stolee is a caring teacher and well liked.",
+            "class_name": "CSC408",
+            "date": "2025-04-24"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "IDK why people are saying she was a bad lecturer, imo she's one of the best in the dept. I found her consistently engaging & I learned a lot. Also v understanding, if you show some effort & reach out she'll generally be quite helpful.  She makes sure her classes aren't artificially hard even if they're naturally hard. I took 492 & 408 with her too.",
+            "class_name": "CSC326",
+            "date": "2025-04-08"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "Dr. Stolee is not a bad option for Software Engineering as most of the learning is done in the lab section or group projects. That being said, she is not an engaging lecturer and often confuses/contradicts herself in class. Clear answers to questions are few and far between and the quality of teaching feels monotonous. The grading is clear and fair",
+            "class_name": "CSC326",
+            "date": "2024-04-22"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "\nExtremely disappointed with the performance of Kathryn Stolee. Her teaching was disorganized, lacking clarity, and left me feeling confused throughout the course. Moreover, her grading seemed arbitrary and inconsistent, making it difficult to gauge my progress or understand the basis for my grades.",
+            "class_name": "CSC326",
+            "date": "2023-10-01"
+          }
+        ]
+      },
+      {
+        "name": "Samuel Carter",
+        "rmp_id": "VGVhY2hlci0yMDQxMjA5",
+        "rating": 5,
+        "difficulty": 2.7,
+        "num_ratings": 3,
+        "total_ratings": 3,
+        "department": "Computer Science",
+        "would_take_again": 100,
+        "courses_taught": [
+          "CSC 297",
+          "CSC 405"
+        ],
+        "last_reviewed": "2026-04-15",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Easy and amazing prof. No tests all just hw, which are very comprehensive but doable and he gives a lot of time to complete them. Also gives extensions for anyone who needs it. Lectures are a little boring for students who aren't very interested in the content but describes the content very well. Highly recommend taking this professor.",
+            "class_name": "CSC297",
+            "date": "2026-04-15"
+          }
+        ]
+      },
+      {
+        "name": "Ruozhou Yu",
+        "rmp_id": "VGVhY2hlci0yNjIxOTAw",
+        "rating": 2.3,
+        "difficulty": 4,
+        "num_ratings": 3,
+        "total_ratings": 3,
+        "department": "Computer Science",
+        "would_take_again": 33.3333,
+        "courses_taught": [
+          "CSC 570",
+          "ECE 570"
+        ],
+        "last_reviewed": "2023-05-09",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "This is a theory-heavy system class that has no programming assignments. There are four homework assignments each worth 10%, two midterms (15% each) and a final (30%).  Wouldn't recommend you take this course with this teacher unless you have to, there are better courses. teacher isn't great.",
+            "class_name": "CSC570",
+            "date": "2023-05-09"
+          }
+        ]
+      },
+      {
+        "name": "Justin Bradley",
+        "rmp_id": "VGVhY2hlci0zMDk4MDE3",
+        "rating": 3,
+        "difficulty": 4,
+        "num_ratings": 2,
+        "total_ratings": 2,
+        "department": "Computer Science",
+        "would_take_again": 50,
+        "courses_taught": [
+          "CSC 495"
+        ],
+        "last_reviewed": "2025-12-16",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "He includes a lot of unnecessarily convoluted explanations to things that could be a lot more simple. Goes back and forth quite a bit and can be difficult to follow. I think he gets impatient with students who are not catching on and can sometimes end up leaving them behind",
+            "class_name": "csc495",
+            "date": "2025-12-16"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "He's pretty good",
+            "class_name": "csc495",
+            "date": "2025-05-05"
+          }
+        ]
+      },
+      {
+        "name": "Zhishan Guo",
+        "rmp_id": "VGVhY2hlci0yOTk3MTgw",
+        "rating": 5,
+        "difficulty": 3,
+        "num_ratings": 1,
+        "total_ratings": 1,
+        "department": "Computer Science",
+        "would_take_again": 100,
+        "courses_taught": [
+          "CSC 591"
+        ],
+        "last_reviewed": "2024-04-01",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Guo is one of those rare cases of a professor who is not only extremely knowledgeable in his field, but is also incredibly adept at actually conveying that knowledge to students. I have never seen someone sum up the intuition behind otherwise dense and complex concepts as quickly and concisely as he does.",
+            "class_name": "CSC591",
+            "date": "2024-04-01"
+          }
+        ]
+      },
+      {
+        "name": "Jianqing Liu",
+        "rmp_id": "VGVhY2hlci0zMDcwNTgz",
+        "rating": 3,
+        "difficulty": 3,
+        "num_ratings": 1,
+        "total_ratings": 1,
+        "department": "Computer Science",
+        "would_take_again": 100,
+        "courses_taught": [
+          "CSC 401"
+        ],
+        "last_reviewed": "2025-01-17",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Incredible lecturer, v knowledgeable about the field and explains it in a very clear & in-depth way. Balanced levels of work. V disorganized tho, messed up two exams of three. Not always v empathetic. Generally p good and its an easy enough class, not much to say.",
+            "class_name": "CSC401",
+            "date": "2025-01-17"
+          }
+        ]
+      },
+      {
+        "name": "Wujie Wen",
+        "rmp_id": "VGVhY2hlci0zMTQzOTY5",
+        "rating": 3,
+        "difficulty": 4,
+        "num_ratings": 1,
+        "total_ratings": 1,
+        "department": "Computer Science",
+        "would_take_again": 0,
+        "courses_taught": [
+          "CSC 456"
+        ],
+        "last_reviewed": "2025-12-08",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "He's a kind guy, knows his stuff, receptive out of class, asks when we want things due. But, not a great lecturer. Assignments often have confusing ambiguities, or questions that ask you to do things and the correct answer is \"that's not possible\", which is lame & frustrating. Graded by few things, but not graded too harsh. Cool material, though.",
+            "class_name": "CSC456",
+            "date": "2025-12-08"
+          }
+        ]
+      }
+    ],
+    "Electrical and Computer Engineering": [
+      {
+        "name": "Daryoosh Vashaee",
+        "rmp_id": "VGVhY2hlci0yNDg2NDIz",
+        "rating": 2.9,
+        "difficulty": 4.5,
+        "num_ratings": 68,
+        "total_ratings": 68,
+        "department": "Electrical Engineering",
+        "would_take_again": 45.5882,
+        "courses_taught": [
+          "ECE 489",
+          "ECE 589",
+          "MSE 489",
+          "MSE 589"
+        ],
+        "last_reviewed": "2026-03-02",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Really great professor. his teaching is very high quality. he explains every topic thoroughly and makes sure you actually understand it. He's also very helpful outside of class. The material can be challenging at times but you end up learning a lot. The class focuses more on understanding concepts rather than plugging numbers into formulas.",
+            "class_name": "MSE589",
+            "date": "2026-03-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "he went over a bunch of semiconductor stuff first which really helped fill in the gaps before getting into solar cells and thermoelectrics that was actually pretty nice",
+            "class_name": "MSE489",
+            "date": "2026-02-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "It was pretty challenging at first since I didn't have a strong background but once I started catching up, I actually grew to enjoy the course",
+            "class_name": "ECE489",
+            "date": "2025-11-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I liked the class as I learned so much more than what I typically learn in many other classes!",
+            "class_name": "ECE589",
+            "date": "2025-10-01"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "He makes his classes so insanely hard man. Please take 404 for and equivalent semiconductor class BEFORE you take this class, and be very cautious not to overload your schedule. He moves so quickly through the topics, and does a ton of analyzing graphs for this class so if you don't understand the graphs easily and intuitively, you may struggle. ",
+            "class_name": "ECE589",
+            "date": "2025-03-27"
+          }
+        ]
+      },
+      {
+        "name": "Elena Veety",
+        "rmp_id": "VGVhY2hlci0yNzI1NjQ3",
+        "rating": 4.9,
+        "difficulty": 2.8,
+        "num_ratings": 39,
+        "total_ratings": 39,
+        "department": "Electrical Engineering",
+        "would_take_again": 97.4359,
+        "courses_taught": [
+          "ECE 200",
+          "ECE 211"
+        ],
+        "last_reviewed": "2026-04-14",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Veety is the GOAT, accessible outside of class whether it be office hours or email and is one of the best lecturers on campus. Take her if possible, she is the best option you have.",
+            "class_name": "ECE200",
+            "date": "2026-04-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "One of the most clear and accommodating teachers I have ever had. The bad part about having her as your professor is that it kinda ruins your experience of taking many other professors, knowing how good lecture-style learning can be performed.",
+            "class_name": "ECE211",
+            "date": "2026-04-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Dr. Veety's lectures were masterclass, well worth rewatching! HW and labs were extensive so don't procrastinate, and be aware that exams expect mastery, not regurgitation. \nExtra challenge was added by the distance learning aspect (joint degree). Seeking quick external clarification was imperative when other resources lacked, especially for labs.",
+            "class_name": "ECE200",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Good lecturer, tests are not super hard",
+            "class_name": "ECE200",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Is very generous when it comes to completion. Allowed me to retake a lab quiz weeks after I missed it, and even offered further times when adverse weather made it difficult for me to get to campus. Very understanding professor!",
+            "class_name": "ECE200",
+            "date": "2025-12-12"
+          }
+        ]
+      },
+      {
+        "name": "Jim Carlson",
+        "rmp_id": "VGVhY2hlci0yMDM0ODkz",
+        "rating": 3.4,
+        "difficulty": 4.1,
+        "num_ratings": 37,
+        "total_ratings": 37,
+        "department": "Electrical Engineering",
+        "would_take_again": 72.2222,
+        "courses_taught": [
+          "ECE 209",
+          "ECE 306"
+        ],
+        "last_reviewed": "2025-12-13",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "This is by far the most time consuming class I've had. Towards the end of the semester I was clocking in 20-30 hours. Carlson is ok, he's a lot better and helpful when you meet with him one-on-one. Try and do good on the first two tests because the third one will be terrible. Start the projects early and ask the TA's and other students questions.",
+            "class_name": "ECE306",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "306 is a time consuming class. It is not a hard class. If you dedicate enough time in the lab and ask the TA questions instead of putting everything off to the last minute you will be fine. Carlson gets a bad rep, but he's one of the best prof's i have had at ncsu. he doesn't BS you about anything and will help however he can.",
+            "class_name": "ECE306",
+            "date": "2025-12-05"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Life was pretty awful taking Carlson's class. He's rude, dismissive, and will not listen to you. His lectures are terrible, he does not teach, and he assigns more work than the entire department combined. I did not learn in this class. I did not appreciate this class. Any other professor would have done it much better.",
+            "class_name": "ECE306",
+            "date": "2025-11-03"
+          },
+          {
+            "rating": 3,
+            "difficulty": 5,
+            "review_text": "The few hours I was able to leave EB2, I used to stare outside the window of my apartment every day and consider jumping in front of the Amtrak, but overall learned a lot from the class. You will spend AT LEAST 15-20 hours a week in the lab working on the car. Best advice is to befriend the TAs and ask them for help. ",
+            "class_name": "ECE306",
+            "date": "2025-10-12"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "He does not care about this class, always and a bad mood and rude when people ask question, but If you can take this class take it, the test are easy ai generated test. By far the easiest test out of the 209 professors, he is a awful teacher but easy class. On test days its like he wakes up and chooses violence. Take this class tho :) easy pass ",
+            "class_name": "ECE209",
+            "date": "2025-05-15"
+          }
+        ]
+      },
+      {
+        "name": "Mihail Cutitaru",
+        "rmp_id": "VGVhY2hlci0zMDE4NjI1",
+        "rating": 4.8,
+        "difficulty": 2.4,
+        "num_ratings": 35,
+        "total_ratings": 35,
+        "department": "Electrical Engineering",
+        "would_take_again": 94.2857,
+        "courses_taught": [
+          "ECE 109",
+          "ECE 310"
+        ],
+        "last_reviewed": "2026-04-16",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. C is a great explainer, I was able to understand almost everything being covered in the class just by attending lecture. If anyone is planning on taking ECE 109, I would recommend checking out the puzzle game Turing Complete, as the content covered in this class is VERY similar. ",
+            "class_name": "ECE109",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Amazing professor, not only is he a great lecturer, but he cares a lot about the students and goes through a lot of efforts to make sure that we succeed. ",
+            "class_name": "ECE109",
+            "date": "2025-12-24"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr.C is the GOAT. He's by far one of the best professors I've had. His lectures are interesting and he does a good job at explaining complex topics and breaking them down. There are big 3 projects and weekly labs with mandatory lab reports. It's a time consuming class but not hard and he's always willing to work with students and have office hours.",
+            "class_name": "ECE310",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dare I say he rivals Bob Evans GOAT status? The best prof Ive had here in ECE. Lots of opportunity to succeed (like extra credit). He does give a lot of work out but generally it isnt too bad. You learn a lot from this course. Grading rubric is clear and it is quite easy to get a good grade in this class as long as you try.",
+            "class_name": "ECE310",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. C is easily one of the best professors for ECE. I wish I had him for 109. Probably the most understanding and kind professor I've had. He is very accommodating; he's always willing to extend deadlines if you need them. He gives an absurd amount of extra credit throughout the semester. This class is a lot of work, but it is not hard to do well.",
+            "class_name": "ECE310",
+            "date": "2025-12-11"
+          }
+        ]
+      },
+      {
+        "name": "Aydin Aysu",
+        "rmp_id": "VGVhY2hlci0yNDc2NjQw",
+        "rating": 4.5,
+        "difficulty": 2.6,
+        "num_ratings": 28,
+        "total_ratings": 28,
+        "department": "Electrical Engineering",
+        "would_take_again": 85.7143,
+        "courses_taught": [
+          "ECE 212"
+        ],
+        "last_reviewed": "2026-04-15",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Decent professor but design project sucks. No TA office hours the week of, doesn't provide support, they are extremely difficult to get right. Other professors teaching this course are a much better choice.",
+            "class_name": "ECE212",
+            "date": "2026-04-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Easier than some 1 credit classes. He introduces a topic, then does practice problems. Mediocre handwriting isn't an issue since his slides are on Moodle. He gives a week for HW and often pushes deadlines back if the class has a heavy exam week. Highly recommend if you want a professor who works with your schedule. Encourages AI use to check HW.",
+            "class_name": "ECE212",
+            "date": "2026-04-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "I took Logic Design at another college and got an A-, here I am looking at a C.  During lecture his writing is very hard to read making it hard to follow after class looking at lecture notes. Also, homeworks are posted by random, projects appear abruptly, no exam schedule to go off of. No communication, only TAs. You will always feel unprepared.",
+            "class_name": "ECE212",
+            "date": "2026-03-24"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Go to class and pay attention and you'll do great. Loved his teaching style and the exams were very similar to lecture content.",
+            "class_name": "ECE212",
+            "date": "2025-10-12"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Very nice, and chill professor, definitely the better option for 212. If you're having trouble he will listen and help as much as he can (also if you ask for extensions for the projects he will probably say yes). Start the project early!!!  Grading does take a while, but they are usually easy graders. worst part is how much money you have to drop.",
+            "class_name": "ECE212",
+            "date": "2024-05-01"
+          }
+        ]
+      },
+      {
+        "name": "Michela Becchi",
+        "rmp_id": "VGVhY2hlci0yMzQ4NzE0",
+        "rating": 2.4,
+        "difficulty": 4.5,
+        "num_ratings": 25,
+        "total_ratings": 25,
+        "department": "Electrical Engineering",
+        "would_take_again": 32,
+        "courses_taught": [
+          "ECE 209",
+          "ECE 592"
+        ],
+        "last_reviewed": "2026-03-13",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "The operating systems class (now ece565) that Dr. Becchi teaches is probably the most important class i have taken here. In every single low level programming interview I've ever had, that information taught to you in that class has covered about 80% of them. Concepts of scheduling, mutexes, semaphores, and virtual memory are incredibly important",
+            "class_name": "ECE592",
+            "date": "2026-03-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "If you want to maintain a good gpa just don't take Becchi. Her accent was definetly tough to understand which sucks because you definetly should attend or watch the lectures to get a good understanding of the material. Tests dates are honestly really annoying and the tests themselves are much harder than Carlson.",
+            "class_name": "ECE209",
+            "date": "2025-07-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Becchi is a really nice person but I would not at all recommend taking her class. I've had teachers with bad accents before, but I could barely understand her, and you definetly have to attend classes to get a good understanding of the material. Highly dont recommend, please take byrd or really anyone else.",
+            "class_name": "ECE209",
+            "date": "2025-07-26"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I hate writing this review because Becchi is a pretty nice person, but her class is pretty terrible. Shes a good lecturer and you should definetly attend lectures, but programming assignments and exams are straight up unfair. No extra credit and schedules exams at the same times as other ece classes like 211 and 200. ",
+            "class_name": "ECE209",
+            "date": "2025-07-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "First teacher with actual un-understandable accent. Have had Indian and Korean accents but they were understandable, she is not. This was my first experience in coding and I pretty much had to learn myself because her lectures are worthless. If you can take Carlson, or Byrd, do. I'm pretty convinced her 5 review from May 12 is fake because no way.",
+            "class_name": "ECE209",
+            "date": "2025-05-15"
+          }
+        ]
+      },
+      {
+        "name": "Brian Floyd",
+        "rmp_id": "VGVhY2hlci0xODY0ODA4",
+        "rating": 4,
+        "difficulty": 4,
+        "num_ratings": 20,
+        "total_ratings": 20,
+        "department": "Electrical Engineering",
+        "would_take_again": 70.5882,
+        "courses_taught": [
+          "ECE 511"
+        ],
+        "last_reviewed": "2025-11-27",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "One of the better professors in the ECE department. The course is fast-paced, but if you enjoy analog design and reference the books, you'll do well.",
+            "class_name": "ECE511",
+            "date": "2025-11-27"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "I've tried to like Prof Floyd as he really does seem like a great guy, but I can't get past the fact that he is a terrible lecturer. He will go out of his way to help, answering questions, meeting outside of class, additional office hours, but I just can't stand how this professor teaches. I constantly felt on the back foot in the class.",
+            "class_name": "ECE511",
+            "date": "2025-11-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "My manager knew him. He was saying he was not good at integrated circuits and IBM laid off him. I think he was right because I didn't learnt much after taking his course.",
+            "class_name": "ECE511",
+            "date": "2025-04-22"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "He's okay with a few first lectures if you have passed other analog circuit courses, but he has no idea about analog design. I studied a book myself otherwise I was similar to other classmates that failed more advanced courses that 511 was their prerequisites.",
+            "class_name": "ECE511",
+            "date": "2025-04-22"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I think he has some mental issues. He was looking at me angrily during the lectures.",
+            "class_name": "ECE511",
+            "date": "2025-04-22"
+          }
+        ]
+      },
+      {
+        "name": "Rachana Gupta",
+        "rmp_id": "VGVhY2hlci0yMjQ0OTQ4",
+        "rating": 2.1,
+        "difficulty": 3.7,
+        "num_ratings": 19,
+        "total_ratings": 19,
+        "department": "Electrical Engineering",
+        "would_take_again": 26.3158,
+        "courses_taught": [
+          "ECE 484",
+          "ECE 485"
+        ],
+        "last_reviewed": "2025-01-02",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 2,
+            "review_text": "Dr. Gupta is way nicer than people give her credit for. She will tell you the truth about exactly how much your project sucks in the early stages, and she's doing it for your sake, there's no point in being offended. She is very fair, and nice if you can accept criticism (and she does only criticize when it's deserved).",
+            "class_name": "ECE484",
+            "date": "2025-01-02"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Both Rachana and Jeremy are terrible at double standards, and it shows in both their grading and lectures. The structure of the class lives inside spreadsheets, deadlines are very unclear, and Moodle is never used. Though rubrics are given for all presentations, they are never followed and assignments are graded on no basis with no way to appeal. ",
+            "class_name": "ECE484",
+            "date": "2023-12-12"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "SO mean, I don't think she has any respect for the students. She'd basically yell at us for not doing enough, like two weeks into class. I think I only got above an 80, like twice; everything else was 60-70s with feedback like \"it was lacking.\" She'd interrupt presentations, to ask/yell about things that'd be answered later on in the presentation",
+            "class_name": "ECE484",
+            "date": "2023-12-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I don't think she has any respect for her students. Every time I tried to talk to her, she cut me in the middle of my sentence by saying \"My time is out.\", I do not find that respectful or professional at all. She is also unavailable to her students outside of the class and has very few office hours.",
+            "class_name": "ECE484",
+            "date": "2023-12-08"
+          }
+        ]
+      },
+      {
+        "name": "James Tuck",
+        "rmp_id": "VGVhY2hlci0xMDIyMjQ2",
+        "rating": 4.3,
+        "difficulty": 2.5,
+        "num_ratings": 19,
+        "total_ratings": 19,
+        "department": "Electrical Engineering",
+        "would_take_again": 92.3077,
+        "courses_taught": [
+          "ECE 209",
+          "ECE 309",
+          "ECE 466"
+        ],
+        "last_reviewed": "2025-10-12",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 1,
+            "review_text": "Didn't go to class other than for tests bc his \"lectures\" are essentially online learning modules. Easy class, but not a particularly great teacher just an easy one which is fine with me.",
+            "class_name": "ECE209",
+            "date": "2025-10-12"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "The only reason Tuck has good reviews is because his classes are easy. He \"teaches\" with a flipped format using videos that were made 8+ years ago. During class he sits there unless someone asks him a question, occasionally working through practice problems. Don't expect to have anything graded until after LDOC or get a fast response on Piazza.",
+            "class_name": "ECE466",
+            "date": "2023-05-01"
+          }
+        ]
+      },
+      {
+        "name": "Huiyang Zhou",
+        "rmp_id": "VGVhY2hlci0yMDk2Mjgw",
+        "rating": 3.2,
+        "difficulty": 3.6,
+        "num_ratings": 16,
+        "total_ratings": 16,
+        "department": "Electrical Engineering",
+        "would_take_again": 43.75,
+        "courses_taught": [
+          "ECE 309"
+        ],
+        "last_reviewed": "2025-12-28",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 1,
+            "review_text": "This professor was very mid. I didn't really learn much in the class, but I did well on the exams because they weren't that hard. If you want to learn C++, you're going to have to teach yourself or use Zybooks. As of now, you can find all of Dr. Tuck's lecture videos on YouTube and those are very helpful for explaining the same slides but better.",
+            "class_name": "ECE309",
+            "date": "2025-12-28"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "On the one hand, Dr. Zhou made the class easy and straightforward, and it was nice not to have a final exam. However, he was really difficult to understand and was honestly horrible at explaining the material. I had to teach myself almost everything. He gave no preparation at all for the exams, and they were all strange exams. Very mid professor",
+            "class_name": "ECE309",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Very mid course. His lectures were pretty useless. His exams didnt really make any sense but were generally easy. He will decide if he does a final project or exam near the end of the semester. Overall, if you want to learn C++, get ready to teach it to yourself. ",
+            "class_name": "ECE309",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Used all of James Tuck's material but gave his own exams. The point distribution was pretty annoying but I think the content was fair. Zybooks and written homeworks are not hard. It's his first time teaching 309 so I'll cut him some slack. Maybe he'll curve the overall grade too.",
+            "class_name": "ECE309",
+            "date": "2024-12-11"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Super tough grader when it comes to exams and gives awful preparation for them. Failed the final after feeling really good about it and doing well on exam two. Moodle is also not accurate showing overall grades being a lot higher than they actually are. Felt like I had to teach myself everything in the course.",
+            "class_name": "ECE309",
+            "date": "2024-12-10"
+          }
+        ]
+      },
+      {
+        "name": "Huiyang Zhou",
+        "rmp_id": "VGVhY2hlci0yMDk2Mjgw",
+        "rating": 3.2,
+        "difficulty": 3.6,
+        "num_ratings": 16,
+        "total_ratings": 16,
+        "department": "Electrical Engineering",
+        "would_take_again": 43.75,
+        "courses_taught": [
+          "ECE 309"
+        ],
+        "last_reviewed": "2025-12-28",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 1,
+            "review_text": "This professor was very mid. I didn't really learn much in the class, but I did well on the exams because they weren't that hard. If you want to learn C++, you're going to have to teach yourself or use Zybooks. As of now, you can find all of Dr. Tuck's lecture videos on YouTube and those are very helpful for explaining the same slides but better.",
+            "class_name": "ECE309",
+            "date": "2025-12-28"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "On the one hand, Dr. Zhou made the class easy and straightforward, and it was nice not to have a final exam. However, he was really difficult to understand and was honestly horrible at explaining the material. I had to teach myself almost everything. He gave no preparation at all for the exams, and they were all strange exams. Very mid professor",
+            "class_name": "ECE309",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Very mid course. His lectures were pretty useless. His exams didnt really make any sense but were generally easy. He will decide if he does a final project or exam near the end of the semester. Overall, if you want to learn C++, get ready to teach it to yourself. ",
+            "class_name": "ECE309",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Used all of James Tuck's material but gave his own exams. The point distribution was pretty annoying but I think the content was fair. Zybooks and written homeworks are not hard. It's his first time teaching 309 so I'll cut him some slack. Maybe he'll curve the overall grade too.",
+            "class_name": "ECE309",
+            "date": "2024-12-11"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Super tough grader when it comes to exams and gives awful preparation for them. Failed the final after feeling really good about it and doing well on exam two. Moodle is also not accurate showing overall grades being a lot higher than they actually are. Felt like I had to teach myself everything in the course.",
+            "class_name": "ECE309",
+            "date": "2024-12-10"
+          }
+        ]
+      },
+      {
+        "name": "Sevgi Gurbuz",
+        "rmp_id": "VGVhY2hlci0zMDg3MjA4",
+        "rating": 2.9,
+        "difficulty": 4.2,
+        "num_ratings": 12,
+        "total_ratings": 12,
+        "department": "Electrical Engineering",
+        "would_take_again": 50,
+        "courses_taught": [
+          "ECE 301",
+          "ECE 331"
+        ],
+        "last_reviewed": "2026-04-19",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 5,
+            "review_text": "Very passionate professor. Her lectures aren't bad, but you might not get much out of them due to her speed. She uses Moodle quizzes to assign homework, and it is not good. She also has MATLAB homework which are more reasonable. Very hard class and her tests are also tough, but she gives many resources. Also gives a decent amount of extra credit.",
+            "class_name": "ECE301",
+            "date": "2026-04-19"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "She is a nice and caring teacher but ultimately she does very few examples in class and skips through a lot of steps when solving the math. It is very hard to follow and the tests are very difficult, we are allowed a cheat sheet for an exam but honestly its of no use. Avoid is possible!",
+            "class_name": "ECE301",
+            "date": "2026-04-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "I tried a different professor for this class previously but Dr. Gurbuz was much better. A caring professor, making herself available to questions and providing many study resources. ECE331 is a difficult class as it is a lot of new content for non-EE students. Although the class was a rushed at the end, I think it will get better with time.",
+            "class_name": "ECE331",
+            "date": "2025-05-25"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "All these other ratings are wack. I took this junior level class as a freshman and got a B, while taking other engineering classes. It was very well taught, the professor speaks well and gives lots of extra credit. She is very knowledgeable about the material and expects us to understand it. Tests are fair and very well made to prove your knowledge",
+            "class_name": "ECE331",
+            "date": "2025-05-12"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Bro what a waste of a semester. Easily the worst class I've taken yet. Stay away if you're not an ECE major. She's not helpful in the slightest, I sent her an email in early February and got a response around the time of the final in April. She doesn't explain anything well and the tests suck. Avoid her for your own sake.",
+            "class_name": "ECE331",
+            "date": "2025-05-05"
+          }
+        ]
+      },
+      {
+        "name": "Paul Franzon",
+        "rmp_id": "VGVhY2hlci0yMTcxNzUz",
+        "rating": 4.1,
+        "difficulty": 3.9,
+        "num_ratings": 10,
+        "total_ratings": 10,
+        "department": "Electrical Engineering",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECE 564"
+        ],
+        "last_reviewed": "2025-01-02",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Dr. Franzon is very knowledgeable on the topic and quite funny, but his lectures are disorganized. Quizzes and exams are multiple choice and can be very tricky, plus there were mistakes in both the questions and the grading that made it a bad experience. The project was challenging and very fun, that was the best part.",
+            "class_name": "ECE564",
+            "date": "2025-01-02"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Prof. Paul Franzon is one of the better professors I have faced at NCSU. His industry experience is helpful and he's often helping students find work. His quizzes and exams are worded poorly and multiple choice is everywhere--which makes the class more difficult than it needs to be. Still, the assignments are fun. I recommend despite the challenge.",
+            "class_name": "ECE564",
+            "date": "2024-12-21"
+          }
+        ]
+      },
+      {
+        "name": "Zeljko Pantic",
+        "rmp_id": "VGVhY2hlci0yOTQ2ODUw",
+        "rating": 2,
+        "difficulty": 4.5,
+        "num_ratings": 10,
+        "total_ratings": 10,
+        "department": "Electrical Engineering",
+        "would_take_again": 18.1818,
+        "courses_taught": [
+          "ECE 331",
+          "ECE 434"
+        ],
+        "last_reviewed": "2026-04-23",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "The grading breakdown makes no sense. 81% of your grade is dedicated to exams that have an average grade below 70%. A project, that requires you to present for 10 minutes, 5 minutes to answer questions, and 5 page report is only worth 9% of your grade.",
+            "class_name": "ECE331",
+            "date": "2026-04-23"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "This professor just won't answer emails. Incredibly frustrating that I have to attend his office hours that are far from campus merely to receive his attention for 5 minutes. ",
+            "class_name": "ECE331",
+            "date": "2026-04-16"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Do not be too scared of the bad reviews, Dr. Pantic is good at explaining the material and cares about students understanding. However the class does feel very disorganized and he changed several things about the grading(albeit to make it easier) mid semester. Overall he is a good teacher and I wouldn't mind taking him again, but there are problems",
+            "class_name": "ECE331",
+            "date": "2026-04-15"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "He took 3 weeks to give scores back on exams, and wouldn't even let us bring them home. ",
+            "class_name": "ECE434",
+            "date": "2026-04-14"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "This professor is not good. He makes every test problem and HW problem WAY HARDER than it has to be. He gives problems that require you to solve multiple steps that take hours by themselves before even being able to solve for the actual focus of the problem. If he is the only available prof. during registration, take ECE 331 next semester!",
+            "class_name": "ECE434",
+            "date": "2026-04-14"
+          }
+        ]
+      },
+      {
+        "name": "Dror Baron",
+        "rmp_id": "VGVhY2hlci0xNjk5ODIz",
+        "rating": 3,
+        "difficulty": 3.7,
+        "num_ratings": 9,
+        "total_ratings": 9,
+        "department": "Electrical Engineering",
+        "would_take_again": 66.6667,
+        "courses_taught": [
+          "CSC 495",
+          "ECE 421"
+        ],
+        "last_reviewed": "2024-05-04",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Dr. Baron is a great professor and excels in a small classroom setting. However, he does not provide any digital notes, and some aspects of the course do not map to a specific section of either of the two textbooks he uses. Due to this, you will need to take diligent notes to understand the material.",
+            "class_name": "CSC495",
+            "date": "2024-05-04"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "This is for the Quantum Computing Special Topics course. Prof Baron is great, he cares about making sure everyone has an enjoyable and productive experience in class. His lectures aren't so exciting, but he tries to be engaging. The class had short weekly homeworks and quizzes that weren't too intense. Not a harsh grader, and very flexible.",
+            "class_name": "CSC495",
+            "date": "2024-04-12"
+          }
+        ]
+      },
+      {
+        "name": "Qing Gu",
+        "rmp_id": "VGVhY2hlci0yODQ4Mjg2",
+        "rating": 2.1,
+        "difficulty": 3.4,
+        "num_ratings": 9,
+        "total_ratings": 9,
+        "department": "Electrical Engineering",
+        "would_take_again": 11.1111,
+        "courses_taught": [
+          "ECE 303",
+          "PY 208"
+        ],
+        "last_reviewed": "2026-04-14",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "The only thing saving Dr. Gu is that you become institutionalized to the communist community which is the physics department. Dr. Gu is a very nice lady, but does not make the lectures the slightest bit interesting or enjoyable. Use Dr. Cox's lectures to study for the exams and you should be fine.",
+            "class_name": "PY208",
+            "date": "2026-04-14"
+          },
+          {
+            "rating": 3,
+            "difficulty": 5,
+            "review_text": "Dr. Gu isn't horrible, it sucks that your only graded on the best of 2/3 exams that are worth 40% of your grade. HW graded on completion not accuracy worth 10%, and an oral presentation another 10%. The way she conducts lectures matches how i best receive information so i thought it was fine. This course is basically PY208 w/ calculus 3 that's it.",
+            "class_name": "ECE303",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Not ready for her lectures ",
+            "class_name": "ECE303",
+            "date": "2025-04-29"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Dr. Gu is really nice but her lectures are pretty much straight from the textbook, and the book isn't good. If you understand the hw you will do fine on the tests.",
+            "class_name": "ECE303",
+            "date": "2025-01-02"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Gu is not a lecturer. Gu is a textbook being regurgitated onto paper under a document camera. And it's a really bad textbook. No other study resources are provided; practice problems come from the textbook, and homework problems come from an additional instructor's supplement to the textbook. Garbage experience, felt like I learned nothing. ",
+            "class_name": "ECE303",
+            "date": "2024-12-16"
+          }
+        ]
+      },
+      {
+        "name": "Edgar Lobaton",
+        "rmp_id": "VGVhY2hlci0xODQwMzg5",
+        "rating": 2.7,
+        "difficulty": 3.3,
+        "num_ratings": 9,
+        "total_ratings": 9,
+        "department": "Electrical Engineering",
+        "would_take_again": 37.5,
+        "courses_taught": [
+          "ECE 542"
+        ],
+        "last_reviewed": "2025-05-15",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Great lectures, though a lot of intricate math on slides is difficult to follow.  Good mix of assignments including quizzes, homework and individual and group projects with easy going grading.  End of semester got overloaded with overlapping projects, but overall, excellent class.",
+            "class_name": "ECE542",
+            "date": "2025-05-15"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "This course is an easy A+, but you won't gain any meaningful knowledge. It's a waste of money and feels like a scam.",
+            "class_name": "ECE542",
+            "date": "2024-09-25"
+          }
+        ]
+      },
+      {
+        "name": "Suresh Venkatesh",
+        "rmp_id": "VGVhY2hlci0yOTE0NTk5",
+        "rating": 1,
+        "difficulty": 2.6,
+        "num_ratings": 7,
+        "total_ratings": 7,
+        "department": "Electrical Engineering",
+        "would_take_again": 0,
+        "courses_taught": [],
+        "last_reviewed": "2024-11-26",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "In-class lectures are poor and often confusing.  Misunderstands simple questions, leaving students even more confused.  Is generally condescending to students.  Lectures are not representative of homework/exam questions.  Be prepared to read Pozar's Microwave Engineering textbook, as it provides much better explanations than are offered in class.",
+            "class_name": "ECE",
+            "date": "2024-11-26"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Professor seems to constantly misunderstand student questions, making errors, or furthering confusion. Even if he does answer your question, prepare to be treated like you're stupid. His excessively long tests are comprised of a mix of basic questions, to random trivia that wasn't in lecture. Prepare to read the whole textbook. Avoid if possible!!!",
+            "class_name": "ECE",
+            "date": "2024-11-21"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "The professor is incredibly discouraging, and his behavior is excessively strict. I've never felt so utterly frustrated with myself. I strongly advise steering clear of this professor.",
+            "class_name": "ECE",
+            "date": "2024-03-15"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "I regret taking this seminar/class. Maybe he is just inexperienced, being somewhat new, but it was a waste of time. The other reviews here about awful communication are true, though he tries and is available outside of class.",
+            "class_name": "ECE",
+            "date": "2024-02-19"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "There are much better options in the department. This guy clearly likes his subject but is just horrible at explaining things. He drones on a lot with useless stories. He means well but my time would have been better spent elsewhere.",
+            "class_name": "ECE",
+            "date": "2023-08-07"
+          }
+        ]
+      },
+      {
+        "name": "Leonard White",
+        "rmp_id": "VGVhY2hlci0yNTkyOTk5",
+        "rating": 4.3,
+        "difficulty": 3.3,
+        "num_ratings": 7,
+        "total_ratings": 7,
+        "department": "Electrical Engineering",
+        "would_take_again": 85.7143,
+        "courses_taught": [
+          "ECE 305"
+        ],
+        "last_reviewed": "2025-05-02",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "Dr. White is nice and funny, and gives extensions when it's reasonable. He does his lectures while handwriting, which means there's a good pace, but his handwriting is hard to read, and the lectures can get really boring. He doesn't really give any time to think about it, it's just write along as he goes, no breaks. Easy exams and homework.",
+            "class_name": "ECE305",
+            "date": "2025-05-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "One of the best professors I've had in my whole college career, not because he \"made the class easy\", but because he very clearly laid out what we needed to know, made the material make perfect sense, and approached each subject from a real world perspective. Exams were open book/notes because \"that's how it is in real life.\"",
+            "class_name": "ECE305",
+            "date": "2025-04-24"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "The homework and exams are a bit challenging, but he gives you everything you need to succeed in this class. He posts old exams and the exams he gives you are for the most part problems ripped out of old exams. The exams are online, and you have 72 hours to complete each one once they open. Fairly easy class, but the homeworks can be long. ",
+            "class_name": "ECE305",
+            "date": "2024-05-08"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Dr. White is a breath of fresh air when it comes to professors. He has engaging lectures, a great sense of humor, and is always receptive to questions or feedback. His exams are take home, but are still very difficult. He provides a lot of study material and makes a very difficult course a little easier. ",
+            "class_name": "ECE305",
+            "date": "2024-04-24"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Lectures are recorded and posted immediately so attendance is not required. Professor posts his notes too and homework is tough but not incredibly impossible since he provides so much information to help (textbook reading, notes, lectures). I definitely love the subject matter so far. ",
+            "class_name": "ECE305",
+            "date": "2024-02-23"
+          }
+        ]
+      },
+      {
+        "name": "Tianfu Wu",
+        "rmp_id": "VGVhY2hlci0yMzY4MTk5",
+        "rating": 2.3,
+        "difficulty": 2.4,
+        "num_ratings": 7,
+        "total_ratings": 7,
+        "department": "Electrical Engineering",
+        "would_take_again": 28.5714,
+        "courses_taught": [
+          "EC 763",
+          "ECE 558",
+          "ECE 763"
+        ],
+        "last_reviewed": "2023-01-11",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Dr. Wu demonstrated deep knowledge and he was very helpful in office hours, but there is too much material to cover with sufficient depth to really understand it from the lectures, so they can feel rushed.",
+            "class_name": "ECE763",
+            "date": "2023-01-11"
+          }
+        ]
+      },
+      {
+        "name": "Ali Gurbuz",
+        "rmp_id": "VGVhY2hlci0zMDkyNTky",
+        "rating": 4.5,
+        "difficulty": 2.5,
+        "num_ratings": 4,
+        "total_ratings": 4,
+        "department": "Electrical Engineering",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECE 220",
+          "ECE 301"
+        ],
+        "last_reviewed": "2025-11-18",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Dr. Gurbuz was a fantastic teacher for 220, but for 301 he was a lot more theoretical than practical with the content of the class. We would go over the uses of certain topics as well as general descriptions, and the only way to practice was through HWs and other teachers exams (which weren't like his). He does give EC and is very nice. ",
+            "class_name": "ECE301",
+            "date": "2025-11-18"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Gurbuz is a generous person overall. A lot of people in class got a question wrong on test 1, so he gave us a curve. We were asked in class if we wanted a difficult topic to be on test 2, and when majority of the class said no, he just avoided it on the test. Class is not hard, but need to spend time to remember a lot of content. (cheat sheet)",
+            "class_name": "ECE301",
+            "date": "2025-11-06"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "He is a very nice person. He can go a little quick on the slides",
+            "class_name": "ECE301",
+            "date": "2025-11-04"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "He sounds like Khabib and has some funny pronunciations. He's a good professor. I honestly think he'd be better in more advanced courses. His tests were very similar to past tests, which makes them easier to study for. Fantastic notes, and the lectures were fine. He also took Bob Evans office which makes me sad.",
+            "class_name": "ECE220",
+            "date": "2025-04-23"
+          }
+        ]
+      },
+      {
+        "name": "Srdjan Lukic",
+        "rmp_id": "VGVhY2hlci0zMTMyMDA0",
+        "rating": 3,
+        "difficulty": 3.3,
+        "num_ratings": 3,
+        "total_ratings": 3,
+        "department": "Electrical Engineering",
+        "would_take_again": 25,
+        "courses_taught": [
+          "ECE 305"
+        ],
+        "last_reviewed": "2026-04-26",
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Dr. Lukic is a kind guy, and he knows the material well. However, the class is very unorganized, and he is not the best at communicating outside of lecture. In class, all notes were done on a legal pad and (mostly) scanned into Moodle. The material itself is not that hard, and if you are good at learning on your own you will do ok in the class.",
+            "class_name": "305",
+            "date": "2026-04-26"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "This guy is a solid professor. The homework is tougher than the tests and quizzes, so if you do them to mastery, you will be fine. He has good lectures as well, but he has rather poor handwriting and needs to work on organization. He is very slow in responding to emails. He allows you to waive the final exam, which is very appreciated.",
+            "class_name": "ECE305",
+            "date": "2026-04-20"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Very nice guy, however class is disorganized which made it really hard for me to keep up. I'm sure he will get better, but he really needs to evaluate the class content itself to pick what will be covered. He also says he will post additional solutions, but forgets.",
+            "class_name": "305",
+            "date": "2025-12-07"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "First of all, I want to acknowledge that Professor Lukic hasn't taught at NC State for long, so I am trying to be understanding, and he genuinely is a nice guy. However, his exams and prep are lacking and needs to be worked on. He doesn't typically answer emails and the whole class was pretty unorganized to say the least. ",
+            "class_name": "305",
+            "date": "2025-12-05"
+          }
+        ]
+      },
+      {
+        "name": "Wenyuan Tang",
+        "rmp_id": "VGVhY2hlci0yNDM4ODI0",
+        "rating": 4.7,
+        "difficulty": 1,
+        "num_ratings": 3,
+        "total_ratings": 3,
+        "department": "Electrical Engineering",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECE 452"
+        ],
+        "last_reviewed": "2024-05-03",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "He isn't a great lecturer but that's fine because his slides have everything you need. Homework problems come straight from the textbook and you get plenty of time to do them. The exams aren't too far from the practice tests he gives you. ",
+            "class_name": "ECE452",
+            "date": "2024-05-03"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "Very laid back guy, very chill class. He posts his powerpoints so you can probably get away with just looking over them and taking notes. The practice exams are very helpful",
+            "class_name": "ECE452",
+            "date": "2023-04-14"
+          }
+        ]
+      },
+      {
+        "name": "Amay Bandodkar",
+        "rmp_id": "VGVhY2hlci0zMTQ2MTI0",
+        "rating": 3.5,
+        "difficulty": 4,
+        "num_ratings": 2,
+        "total_ratings": 2,
+        "department": "Electrical Engineering",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECE 331"
+        ],
+        "last_reviewed": "2025-12-22",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "He is an alright professor. He did not seem to care about the class after receiving a failing average on a test; he laughed it off. I would say the best way to prepare for this test would be to study the homework and the notes, and you will for sure pass the class. I do, however, like how he drops an exam, including the final. ",
+            "class_name": "ECE331",
+            "date": "2025-12-22"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Dr. Bandodkar is a nice and funny professor, and explains the material well during lectures. However, exams are very fast-paced, and usually more than half of the class is still in the room when time runs out. Also, exams are 80% of the grade (but lowest out of four gets dropped). For exams, I recommend studying the HWs and extra practice problems.",
+            "class_name": "ECE331",
+            "date": "2025-12-17"
+          }
+        ]
+      },
+      {
+        "name": "Hantao Cui",
+        "rmp_id": "VGVhY2hlci0zMTI1NDk2",
+        "rating": 3,
+        "difficulty": 4,
+        "num_ratings": 2,
+        "total_ratings": 2,
+        "department": "Electrical Engineering",
+        "would_take_again": 50,
+        "courses_taught": [
+          "ECE 211"
+        ],
+        "last_reviewed": "2025-11-06",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "The lectures are very poorly structured (especially compared to Veety). Does not go over any examples in class except for the simplest scenario that is possible, and then gives the most unnecessarily complicated problems on exams. Be prepared to spend 95% of your time doing useless complex algebra. ",
+            "class_name": "ECE211",
+            "date": "2025-11-06"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Cui cares about his students and really wants to make sure they understand the material. He is easily accessible outside of class and does his best to try and break down lectures and hard concepts. I took him for ECE 211, which is a tough course, but I couldn't recommend a better professor besides Veety to take it with.",
+            "class_name": "ECE211",
+            "date": "2025-10-24"
+          }
+        ]
+      },
+      {
+        "name": "Dima Farfurnik",
+        "rmp_id": "VGVhY2hlci0zMTA2Njg2",
+        "rating": 4.5,
+        "difficulty": 3.5,
+        "num_ratings": 2,
+        "total_ratings": 2,
+        "department": "Electrical Engineering",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECE 303"
+        ],
+        "last_reviewed": "2025-07-31",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Difficult class but Dr. Farfurnik is an enthusiastic professor who wants to help you learn the material. Very fair exams and curving. ",
+            "class_name": "ECE303",
+            "date": "2025-07-31"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Less painful than it could have been",
+            "class_name": "ECE303",
+            "date": "2025-05-31"
+          }
+        ]
+      },
+      {
+        "name": "Ning Lu",
+        "rmp_id": "VGVhY2hlci0yOTc1MDg5",
+        "rating": 4.5,
+        "difficulty": 2.5,
+        "num_ratings": 2,
+        "total_ratings": 2,
+        "department": "Electrical Engineering",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECE 451"
+        ],
+        "last_reviewed": "2024-10-30",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "She was hilarious and really encouraged participation by giving out chocolate every lecture! If you take advantage of this class, you will come out with a lot of good skills (matlab, excel, power flow, etc). The group project is medium difficulty (ask for help). Overall - such a great, positive, and encouraging professor. I wish she taught more :(",
+            "class_name": "ECE451",
+            "date": "2024-10-30"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Her easygoing attitude and sense of humor made lectures interesting. Homeworks and the midterms have solutions provided and the final doesn't have as much impact on your grade as it seems. The project takes time but she's willing to help you when you need it. Her class had a laid back environment, which was nice considering my other classes.",
+            "class_name": "ECE451",
+            "date": "2023-12-30"
+          }
+        ]
+      },
+      {
+        "name": "Hamid Krim",
+        "rmp_id": "VGVhY2hlci0yOTI0OTk3",
+        "rating": 1,
+        "difficulty": 4,
+        "num_ratings": 1,
+        "total_ratings": 1,
+        "department": "Electrical Engineering",
+        "would_take_again": 0,
+        "courses_taught": [],
+        "last_reviewed": "2023-08-17",
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Horrible Professor. Goes on way too many tangents, His homeworks and quizes are vastly different. \nDoesn't clear doubts. He's knowledgable no doubt but he has no idea how to teach a class. ",
+            "class_name": "514",
+            "date": "2023-08-17"
+          }
+        ]
+      },
+      {
+        "name": "Jennifer Marley",
+        "rmp_id": "VGVhY2hlci0zMDcyNTMz",
+        "rating": 5,
+        "difficulty": 2,
+        "num_ratings": 1,
+        "total_ratings": 1,
+        "department": "Electrical Engineering",
+        "would_take_again": 100,
+        "courses_taught": [
+          "ECE 211"
+        ],
+        "last_reviewed": "2026-04-07",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Marley is the best! She is so friendly and loves chatting with students outside of class. She does an amazing job teaching, and she really tries to make sure every student succeeds. She interacts with students in class and keeps the lectures engaging. As long as you put in effort to learn, this class is nothing to be scared of.",
+            "class_name": "ECE211",
+            "date": "2026-04-07"
+          }
+        ]
+      }
+    ],
+    "Mechanical and Aerospace Engineering": []
   }
 }

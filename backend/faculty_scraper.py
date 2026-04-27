@@ -47,6 +47,12 @@ _UNC = {
     "scraper":         "playwright",
 }
 
+_NCSU = {
+    "school_slug":     "ncsu",
+    "rmp_school_name": "North Carolina State University",
+    "scraper":         "ncsu",
+}
+
 _SOURCES = [
     {
         **_UNCC,
@@ -181,6 +187,25 @@ _SOURCES = [
         "rmp_dept_aliases": ["Economics", "Finance", "Business Economics", "Political Economy"],
         # /people/<slug>/ links with "Last, First" text
     },
+    # ---- NC State (requests-based; profile links have no trailing slash) ----
+    {
+        **_NCSU,
+        "department":       "Computer Science",
+        "directory_url":    "https://www.csc.ncsu.edu/faculty/",
+        "rmp_dept_aliases": ["Computer Science", "Computing", "Computer Engineering"],
+    },
+    {
+        **_NCSU,
+        "department":       "Electrical and Computer Engineering",
+        "directory_url":    "https://ece.ncsu.edu/people/",
+        "rmp_dept_aliases": ["Electrical Engineering", "Computer Engineering", "ECE", "Electrical & Computer Engineering"],
+    },
+    {
+        **_NCSU,
+        "department":       "Mechanical and Aerospace Engineering",
+        "directory_url":    "https://mae.ncsu.edu/directory/",
+        "rmp_dept_aliases": ["Mechanical Engineering", "Aerospace Engineering", "MAE", "Mechanical and Aerospace Engineering"],
+    },
 ]
 
 _NAV_NOISE = {
@@ -276,6 +301,41 @@ def _scrape_cci_names(directory_url: str) -> list[str]:
         url  = nxt["href"] if nxt else None
 
     logger.info("Scraped %d unique faculty names", len(names))
+    return names
+
+
+def _scrape_ncsu_names(directory_url: str) -> list[str]:
+    """Scrape faculty names from an NCSU department page via plain requests.
+
+    NCSU profile links use /people/{slug} or /directory/{slug} without a trailing
+    slash, so the standard CCI scraper regex doesn't match them.
+    """
+    seen:  set[str]  = set()
+    names: list[str] = []
+
+    logger.info("Fetching NCSU directory: %s", directory_url)
+    try:
+        resp = requests.get(directory_url, headers={"User-Agent": "Mozilla/5.0"}, timeout=10)
+    except requests.exceptions.RequestException as e:
+        logger.warning("NCSU request failed: %s", e)
+        return []
+
+    if not resp.ok:
+        logger.warning("HTTP %d for %s", resp.status_code, directory_url)
+        return []
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+
+    for a in soup.find_all("a", href=re.compile(r"/(people|directory)/[a-z][a-z0-9\-]+/?$")):
+        raw  = a.get_text(strip=True)
+        if not raw:
+            continue
+        text = _flip_last_first(_clean_name(raw))
+        if _is_valid_faculty_name(text) and text not in seen:
+            seen.add(text)
+            names.append(text)
+
+    logger.info("Scraped %d unique faculty names (NCSU requests)", len(names))
     return names
 
 
@@ -413,6 +473,8 @@ def build_cache() -> None:
 
         if source.get("scraper") == "playwright":
             names = _scrape_playwright_names(dir_url, name_selector=source.get("name_selector"))
+        elif source.get("scraper") == "ncsu":
+            names = _scrape_ncsu_names(dir_url)
         else:
             names = _scrape_cci_names(dir_url)
 
