@@ -95,27 +95,19 @@ class ResolveRequest(BaseModel):
 
 # ---------- Helpers ----------
 
-def _mock_response(course_code: str, school: str) -> dict:
-    try:
-        mock_insight = insights.generate_insights(
-            professor_name=insights.MOCK_DATA["professor_name"],
-            course_code=course_code,
-            reddit_posts=insights.MOCK_DATA["reddit_posts"],
-            rmp_reviews=insights.MOCK_DATA["rmp_reviews"],
-        )
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+_PREFIX_ALIASES: dict[str, str] = {
+    "ITSC": "ITCS",
+    "ITCS": "ITSC",
+}
+
+
+def _no_data_response(course_code: str, school: str) -> dict:
     return {
-        "course_code":       course_code,
-        "school":            school,
-        "professors": [{
-            "name":        insights.MOCK_DATA["professor_name"],
-            "rating":      None,
-            "num_ratings": 0,
-            "insights":    mock_insight,
-        }],
-        "source":            "mock",
-        "reddit_post_count": 0,
+        "course_code": course_code,
+        "school":      school,
+        "professors":  [],
+        "source":      "no_data",
+        "message":     "No reviews available for this course yet. Try a similar course or check back next semester.",
     }
 
 
@@ -180,6 +172,17 @@ def get_course_insights(school: str, code: str) -> dict:
     else:
         logger.info("Cache miss for %s / %s — trying live RMP", school, course_code)
 
+    # Alias prefix cache lookup (e.g. ITSC 1600 ↔ ITCS 1600)
+    if not professors:
+        prefix = course_code.split()[0]
+        alias_prefix = _PREFIX_ALIASES.get(prefix)
+        if alias_prefix:
+            alias_code = alias_prefix + course_code[len(prefix):]
+            professors = [p for p in dept_faculty if alias_code in p.get("courses_taught", [])]
+            if professors:
+                logger.info("Alias cache hit (%s->%s): %d professor(s) for %s / %s",
+                            prefix, alias_prefix, len(professors), school, course_code)
+
     # First fallback: live RMP course search
     if not professors:
         try:
@@ -200,7 +203,7 @@ def get_course_insights(school: str, code: str) -> dict:
             logger.warning("Reddit/matcher fallback failed: %s", e)
 
     if not professors:
-        return _mock_response(course_code, school)
+        return _no_data_response(course_code, school)
 
     professor_results: list[dict] = []
     deadline = time.perf_counter() + 15.0
@@ -231,7 +234,7 @@ def get_course_insights(school: str, code: str) -> dict:
             logger.warning("generate_insights failed for %r: %s", prof["name"], e)
 
     if not professor_results:
-        return _mock_response(course_code, school)
+        return _no_data_response(course_code, school)
 
     return {
         "course_code":       course_code,

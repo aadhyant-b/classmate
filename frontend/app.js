@@ -365,15 +365,16 @@ async function fetchInsights(school, code) {
     setStatus("");
 
     if (data.professors) {
-      if (data.source === "mock") {
-        const banner = document.createElement("p");
-        banner.className   = "mock-banner";
-        banner.textContent = "⚠️ Showing demo data — real data unavailable right now.";
-        resultsEl.appendChild(banner);
+      if (data.source === "no_data") {
+        const card = document.createElement("div");
+        card.className   = "no-data-card";
+        card.textContent = data.message;
+        resultsEl.appendChild(card);
+      } else {
+        data.professors.forEach(prof =>
+          renderCard(prof.insights, code, prof.name, prof.rating, prof.num_ratings)
+        );
       }
-      data.professors.forEach(prof =>
-        renderCard(prof.insights, code, prof.name, prof.rating, prof.num_ratings)
-      );
     } else {
       renderCard(data, code, "Dr. Alex Chen (mock data)", null, null);
     }

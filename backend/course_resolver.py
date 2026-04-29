@@ -61,6 +61,12 @@ if no match exists or your confidence is below 0.80. No preamble, no markdown fe
 no explanation."""
 
 
+_PREFIX_ALIASES: dict[str, str] = {
+    "ITSC": "ITCS",
+    "ITCS": "ITSC",
+}
+
+
 def _normalize(text: str) -> str:
     """Strip punctuation, collapse whitespace, uppercase."""
     return re.sub(r"[^A-Z0-9]", "", text.upper())
@@ -80,6 +86,13 @@ def _stage1_code_lookup(user_input: str, courses: list[dict], school_slug: str) 
     if not re.match(r"^[A-Z]+\d+$", normalized):
         return None
     course = _CODE_INDEX[school_slug].get(normalized)
+    if not course:
+        prefix_match = re.match(r"^([A-Z]+)(\d+)$", normalized)
+        if prefix_match:
+            prefix, number = prefix_match.groups()
+            alias = _PREFIX_ALIASES.get(prefix)
+            if alias:
+                course = _CODE_INDEX[school_slug].get(alias + number)
     if course:
         return {
             "status": "matched",
