@@ -79938,6 +79938,1378 @@
             "date": "2025-12-08"
           }
         ]
+      },
+      {
+        "name": "Jessica Schmidt",
+        "rmp_id": "VGVhY2hlci0xOTQ5NDIw",
+        "rating": 2.5,
+        "difficulty": 3.8,
+        "num_ratings": 117,
+        "total_ratings": 117,
+        "department": "Computer Science",
+        "would_take_again": 34.2593,
+        "courses_taught": [
+          "CSC 116",
+          "CSC 216",
+          "CSC 226",
+          "CSC 316"
+        ],
+        "last_reviewed": "2026-05-03",
+        "reviews": [
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Not bad but not great. Most of the hate she gets is undeserved. Lectures are pretty clear and easy to understand, and she takes questions and answers them pretty well. Homework is pretty light, it's just a 10-20 minute video to watch before each lecture as well as a couple hw questions after most lectures. Final exam can replace midterm grades.",
+            "class_name": "CSC226",
+            "date": "2026-05-03"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I wouldn't wear a seatbelt on the way to her class. ",
+            "class_name": "CSC116",
+            "date": "2026-02-01"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Dr. Schmidt is a good person and does care about her students. However, the flipped classroom approach is not for everyone and the labs and project deadlines can overwhelm you if you're not careful with your time management. Also, this class is very test heavy, but the final exam replacement policy helps a lot.",
+            "class_name": "CSC116",
+            "date": "2026-01-30"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "I did not like this professor for 116, but honestly she's pretty good for 226. I mean discrete's not easy and it's overwhelming at the start, but honestly the harsh ratings are strange. She lectured clearly, the exams were not super easy, this class is fine, not easy, but overall decently fair. I used a lot of office hours, so I put the work in.",
+            "class_name": "CSC226",
+            "date": "2026-01-29"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "RUN!! do not take this class with Schmidt like your life depends on it. Genuinely one of the worst professors ever. Lectures are mundane and a waste of time, homework's don't really match the exams, and she is barely accessible outside of class. Her passive aggressiveness is frustrating, and exams are unnecessarily hard and difficult to prepare for",
+            "class_name": "CSC226",
+            "date": "2025-12-24"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Horrible professor. HW and labs are easy but tedious, don't lose points. Has a passion for teaching but not a great person. Attendance is helpful, the problems in class are similar to the tests. Tests are mostly hard, the MCQ can be tricky, and small errors can lead to points off in FRQ's. Try to take Card. Doesn't record lectures, study a lot.",
+            "class_name": "CSC226",
+            "date": "2025-12-11"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Idk why everyone's giving bad reviews about Dr. Schmidt, she is actually not that bad. Her lectures are great, HW is not really difficult and the midterms are easy. Even though the labs are difficult and very long, you can get a 100% if you complete them. The final was kind of difficult, but she's definitely better than the other professor though.",
+            "class_name": "CSC226",
+            "date": "2025-12-11"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "Mentioned so many times during the semester about the final exam replacement policy, and then proceeds to make the final exam super difficult by adding some difficult proofs worth lots of points. If you can avoid taking her class, do it, but options are limited. Anyways, good riddance.",
+            "class_name": "CSC226",
+            "date": "2025-12-10"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Class structure 4\nExplanations 2\nAttendance policy 1\nLabs 4 (2 long labs but you get 100% if you complete them).\nGenerous final exam replacement policy 5\nFinal exam difficulty 2 (some way too difficult problems there).\nZybooks is a waste of money and time. You do not need it.\nOverall rating 3. \nJust glad to be done with this. Good luck!",
+            "class_name": "CSC226",
+            "date": "2025-12-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "She misleadingly suggests that attendance is graded and required, even though it is neither. Her consistently passive aggressive communication, combined with a flipped classroom approach, makes the class far more challenging than it should be. Both the lectures and the videos offer very little value. If you can avoid her, you should.",
+            "class_name": "CSC226",
+            "date": "2025-12-05"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Utilizes a flipped classroom. Lecture videos are unclear and confusing, while also not being comprehensive. The homework itself is not terrible, however inputting answers and the useability of WebWork is sometimes rough. The Labs however are truly the worse assignments I have ever experienced. Genuinely made me reconsider all my life choices.",
+            "class_name": "CSC226",
+            "date": "2025-12-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "The mirrored class structure feels like an uphill battle; attendance mandatory yet feels useless about 80% of the time if you don't understand the videos. If they absolutely insist on enforcing \"practice\" on students through practice problem examples, why not hold problem sessions like lots of other classes do in addition to a lecture session?",
+            "class_name": "CSC226",
+            "date": "2025-11-22"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Attendance is \"mandatory\" in the sense that if you skip too much she sends you a strongly worded email, which is good cuz lectures are a waste of time. She just dully does problems with unhelpful explanations. Zybooks isn't required anymore but all the actual learning is done with pre-class videos. She gives bad vibes in a way that's hard to place.",
+            "class_name": "CSC226",
+            "date": "2025-11-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "Sat in the front during exam 1, pulled out a 4-function calculator after mishearing her instructions. I begged her to just fail the exam, but she decided to fail me for the entire class in my final semester of my senior year. I needed a job for health insurance this spring, and now need to stay in school another semester.",
+            "class_name": "CSC226",
+            "date": "2025-11-09"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Flipped classroom, so the lectures are basically useless (just practice problems). The lecture videos and ZyBooks participation activities are completely redundant, and half of the (required) topics in the online textbook were not assessed on the tests or homework at all. Overall not a well put together class.",
+            "class_name": "CSC226",
+            "date": "2025-05-14"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "This class is departmental, so a lot of it is not up to professor Schmidt. Tests are tough, but as long as you study ahead of time you'll do fine. She is not a bad teacher, and the practice problems that she does in class are very helpful in preparing for tests. A lot of work is done outside of the classroom, so be ready to put in some hours.",
+            "class_name": "CSC226",
+            "date": "2025-05-08"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "This class was pretty useless for me (ece major) and did not help me at all. I dont like this class in general and her teaching style is flipped (meaning you will learn outside of the classroom and practice during her lectures). Maybe I wouldve enjoyed it more if it wasnt a morning class.",
+            "class_name": "CSC226",
+            "date": "2025-04-30"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "RUNNNNN! if you have the option to not take her, don't. Literally so petty, strict, and passive aggressive for no reason. The reverse classroom style is not optimal and she still spends time in class lecturing. For this to be an intro/beginner class it moves so incredibly fast, much faster than other sections. Get ready to teach yourself. ",
+            "class_name": "CSC116",
+            "date": "2025-04-29"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "It's hard to say how well she teaches since you learn from surface-level videos and zybooks outside of class.Her explanations to questions asked are okay,but not really enlightening.The practice problems she does in class reflect what ends up on the exams,which I do appreciate.Grasp the fundamentals of each unit and you should be fine.",
+            "class_name": "CSC226",
+            "date": "2025-04-28"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Mixed feelings towards this class. It's clear Professor Schmidt is passionate about teaching, but much of the course design works against the student. Labs are required and often take hours to days to complete. Zybook readings are also drawn out. Exams are usually nothing like the homework assignments or review. No recorded lecture.",
+            "class_name": "CSC226",
+            "date": "2025-04-27"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Most of the lecture content was online while lectures were more-or-less just practice sessions of the online material. However, with the difficulty of discrete math, I did not mind this format, and it only lent Professor Schmidt more time for answering students' questions. The \"labs\" were really long and annoying, and the Zybooks got pretty boring.",
+            "class_name": "CSC226",
+            "date": "2025-01-12"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "\"Good morning let's try that again, good morning!\" are words that haunt me. The deadline situation is sometimes crazy with exams and projects, especially the final project had me crying. I don't think the material is tough, the issue is that the tests are from the books, not the lectures, the final saves your grade its so easy.",
+            "class_name": "CSC116",
+            "date": "2025-01-09"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "The lectures were mundane and the structure mediocre. I don't hate Schmidt, but I would suggest taking it with another professor, given the chance. She seems to care a lot about attendance and research(in lectures and labs), but success in the class is achievable with effort. She has a forgiving final policy where it can replace midterm grades.",
+            "class_name": "CSC226",
+            "date": "2025-01-07"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I've never had a teacher work against me so much before. She cried when a student got the lecture code during class and left. She chased them down. She is focused on enforcing her ridiculous ethics and justice, not about you learning the material. There are \"labs\" that take a lot of time for \"research\". Do not take this class with her. ",
+            "class_name": "CSC226",
+            "date": "2025-01-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "TERRIBLE professor. I asked her about office hours a few days before fall break and she smiled and said thanks for reminding me to cancel them. Doesn't care about you and doesn't record lectures to spite students. Prepare to hear her say \"thinking through that\" and \"going through that\" like 30 times each lecture. She says a lot without saying much.",
+            "class_name": "CSC226",
+            "date": "2025-01-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Dr. Schmidt is a good lecturer, but that's where the good things end. She DOES NOT post lecture recordings, so if you miss class, good luck. She also micromanages attendance and will chase you if you attempt to leave class too early. Her tests are extremely hard, and you will most likely do terrible on them. Be prepared to study hard for the final.",
+            "class_name": "CSC226",
+            "date": "2024-12-23"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "If pettiness were an Olympic event, she'd outshine Michael Phelps. She treats attendance like a sacred ritual, obsessing over it more than teaching. Lectures? Not uploaded&#8212;probably to make a point. She even snatched my exam mid-name-writing with 20 seconds left! Emails? Might as well try carrier pigeons. Avoid her class if you value your sanity. ",
+            "class_name": "CSC226",
+            "date": "2024-12-23"
+          },
+          {
+            "rating": 3,
+            "difficulty": 5,
+            "review_text": "Schmidt isn't bad at explaining the material, but the grading is so flawed. 2 tests and a final make up the majority of your grade, and for the tests, you could do super well in general and still get a bad score because of 1 or 2 MCQs. Also, lectures are NOT recorded even if you show up and the class doesn't give out very much partial credit.",
+            "class_name": "CSC226",
+            "date": "2024-12-17"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Dr. Schmidt is by far one of the worst professors I've taken at NCSU. Yes, she is knowledgeable and her lectures are decent. However, her attitude toward student success makes her unfit to be an educator. She refuses to post lecture videos fearing students skip class. Micromanages attendance, is very strict on grading and overcomplicates exams. -HY",
+            "class_name": "CSC226",
+            "date": "2024-12-16"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "She's a great lecturer, I learned a more lot during lecture than I normally would in other classes. But this class is hard, you will have to do a good bit of studying. There is an atrocious amount of homework, it will take up a lot of your time, it took me a whole day to do a lab. Though, everything but the tests are worth 48% so thats nice.",
+            "class_name": "CSC226",
+            "date": "2024-12-14"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Hard tests, no lecture recordings, and lots of homework. If you want to be miserable for a semester then this is the class for you. On a personal level I don't think Schmidt is too bad, but it seems like she enjoys making the class as difficult as possible.",
+            "class_name": "CSC226",
+            "date": "2024-12-12"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "She was an ok professor. She gave a lot of projects, which isn't abnormal for computer science, but the deadlines were all stacked on each other. Her extra credit wasn't very helpful but she allowed our final exam score to replace our first two exam scores if we did better on it, which helped me. Her lectures are online and also in-class.",
+            "class_name": "CSC116",
+            "date": "2024-12-11"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Not great, not terrible. Mostly terrible though.",
+            "class_name": "CSC226",
+            "date": "2024-12-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "My 13th reason.",
+            "class_name": "CSC226",
+            "date": "2024-12-05"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "Would not recommend taking her class, shes not the worst you could possibly get but is close to it. Very strict about attendance and every assignment is a group project. bad attitude and harsh grader with lots of requirements. 2 stars mainly for the attitude and grading, would have had a lot harder time of this wasn't an introductory course.",
+            "class_name": "CSC116",
+            "date": "2024-12-02"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Class isn't that bad. Topic can be hard so there are a lot of assignments to do. She isn't bad at teaching, but takes attendance very seriously and refuses to record her lectures.",
+            "class_name": "CSC226",
+            "date": "2024-11-03"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Mean, petty, and strict for no reason. Makes your life miserable. Enjoys failing students for fun! She once chased a student out of the auditorium mid-lecture (in front of 100+ students) for entering the attendance code and leaving class early. Tests are hard and nothing like the practice test or lecture questions. Please avoid her at all costs!!!!",
+            "class_name": "CSC226",
+            "date": "2024-10-29"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Dr. Schmidt is petty and mean for no absolute reason and this can be confirmed by everyone who has taken her class and actually spoke to her. She goes out of her way to be petty and rude. She also makes tests really difficult and has been increasing the difficulty of this. Do not take her class please! ",
+            "class_name": "CSC226",
+            "date": "2024-10-03"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "The class is extraordinarily difficult if you have never done computer science before because she expects you to learn everything on your own and figure it out. Even having known computer science prior to taking the class, the inane, nonsensical requirements she puts on every project make it even more difficult. DO NOT TAKE.",
+            "class_name": "CSC116",
+            "date": "2024-10-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Discrete math is a hard class but I feel like Dr Schmidt did a good job teaching the material. You can tell she cares and wants you to succeed. She went over lots of examples and was willing to answer questions both during and after class. You'll have to invest a lot of time into this class to do well, but it is possible if you put in the effort.",
+            "class_name": "CSC226",
+            "date": "2024-05-03"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Just go to all the lectures you will be fine, discrete math is something new and the first unit is definitely the hardest.  I was playing clash of clans during the lectures and somehow got an A+",
+            "class_name": "CSC226",
+            "date": "2024-05-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Schmidt is very knowledgeable and does a good job of explaining tricky topics. Ask questions. She will readily explain topics in greater detail, and often engages the rest of the class by repeating the question so everyone is on the same page. Most important of all, she is kind and consistently showed that she actually cares about teaching. ",
+            "class_name": "CSC226",
+            "date": "2024-05-02"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Dr. Schmidt is a nice person, but not a great professor.  She doesn't upload recorded lectures, so unless you go to all lectures, good luck teaching yourself these tough subjects.  The first unit is the hardest of the three, and there is lots of homework that you need to do before class.  Tests are open, but the final can improve the other tests.",
+            "class_name": "CSC226",
+            "date": "2024-05-01"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Her class is relatively difficult, but she cares about her students and teaching. If you ever need help, just wait until after class and she will help.",
+            "class_name": "CSC226",
+            "date": "2024-04-15"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "She is the main one that is changing CSC 226 to be harder for all sections. It isn't reflective of how the class was in the past as exams are closed book now instead of having formula or note sheets. The final does help you bring up midterm grades but by averaging them together with the one of the final sections. ",
+            "class_name": "CSC226",
+            "date": "2024-03-10"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Dr. Schmidt herself is very nice, the problem more lies in how the class is structured.  There are long pre-class assignments, along with homework assignments that don't have a consistent due date, and tests are difficult open ended questions.  The grades in moodle don't actually reflect your grade properly, and there's a lot to memorize.",
+            "class_name": "CSC226",
+            "date": "2024-03-06"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "I was worried going in, but it really isn't bad. The textbook is straightforward and super helpful, deadlines are reasonable if you start early. OH can gets super busy so don't wait too late to go. Lectures can be boring, but Dr. Schmidt is very nice if you have any questions. Do lots of practice problems, tests are heavy on critical thinking",
+            "class_name": "CSC116",
+            "date": "2023-12-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Excellent for CSC 226. The class is well-planned and structured. She removes recorded lectures after 2 weeks of class, so rewatch the class videos and take notes. Attendance is taken via Moodle. I printed the notes posted before the day of class and wrote with a pencil. I wrote again with ballpoint and was able to get a good grade.",
+            "class_name": "CSC226",
+            "date": "2023-09-01"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "I liked Dr. Schmidt contrary to most people. She wasn't exceptional or anything, but she taught me what she needed to without going too fast or being unclear. She is very patient and will take the time to answer and redo questions. The class isn't challenging, but there is a lot of information, so you have to study if you want to do well. ",
+            "class_name": "CSC226",
+            "date": "2023-07-07"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "She is a good professor but she is very strict. She did not sympathize or gave lots of extra credits but she did give you a chance in the final to improve your midterms' grades. Her exams were tough in my opinion but her final in constrast is much much easier ",
+            "class_name": "CSC116",
+            "date": "2023-05-13"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Dr. Schmidt is a great professor. She teaches the material well and makes sure students understand the topics well. If you do the practice exams, you will be well-prepared for the actual exams. The zybooks homework and the labs can be time consuming, so make sure you start them ahead of time--especially lab 2. That one was very tedious to complete.",
+            "class_name": "CSC226",
+            "date": "2023-05-05"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Does upload slides but does not upload them with her teaching on them so they're basically useless blank slides. \"Records\" her lectures but does not even upload them. Should I go on? I think you get the point. She's incompetent and doesn't put any effort.",
+            "class_name": "CSC116",
+            "date": "2023-05-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Class doesn't feel like anything, bland lectures. Tests are complicated and open choices so you better know the material well... They raised the difficulty of this course as well. The teacher is just very... ok, I didn't expect anything super great which is good. For the recursion section look up Eddie Woo on youtube. Much better teachers online.",
+            "class_name": "CSC226",
+            "date": "2023-04-26"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "The course material is pretty difficult but she does a good job of teaching it. She is kind and respectful but nothing too exceptional for a professor.\n\nThe course textbook does have quite a bit of homework but it is also pretty useful for learning the material. Though the homework is due before the lesson is taught so it is kind of a flipped class",
+            "class_name": "CSC226",
+            "date": "2023-04-13"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "Schmidt was a painful teacher. I did well in this class because of prior coding knowledge. She is extremely harsh in her grading, and extremely unwilling to listen to student feedback. An example: Her test questions are unclear, and as a result you may loose up to half credit on code passing all tests.\n\nAvoid if possible.",
+            "class_name": "CSC116",
+            "date": "2023-04-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Dr. Schmidt was very good at scheduling and setting fair deadlines for projects and labs. I felt I had more than enough time to complete each assignment, with the final group project being the only deadline that I had to cut close to. I came out of this class with a great grasp of the fundamentals of Java programming and feel confident for CSC216.",
+            "class_name": "CSC116",
+            "date": "2022-12-27"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Very difficult class for an intro CSC class. Was not lenient and was difficult to reach outside of class. If you were absent for whatever reason, your work for the week doubles because you have to complete the assignment by yourself. Tests were fairly difficult with class averages around 70-72. Final exam wasn't bad though which saved the grade.",
+            "class_name": "CSC116",
+            "date": "2022-12-26"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "This was a flipped classroom, so lectures were often not very engaging. However, Dr. Schmidt always ran through the material with examples at the beginning of class and helped us with our projects if something was unclear. The grading scale was very clear to me, and seemed fair. It is a lot of partner work, but I found that that helped me learn. ",
+            "class_name": "CSC116",
+            "date": "2022-12-18"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Bad",
+            "class_name": "CSC116",
+            "date": "2022-12-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "I love Dr. Schmidt. Classroom is flipped but never had more than 30 mins of lecture outside of class. We also reviewed at the start of class. All in-class work is partner work, which I didn't mind. Attendance was mandatory but makes sense b/c you do everything with partner. Very good at explaining material and nice towards students. Heavy recommend",
+            "class_name": "CSC116",
+            "date": "2022-12-08"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "This is my first semester that I take CSC-116 as an international student, the lecture that Dr. Jessica taught was pretty bad. And the grading policy was unclear, most grading that were received after each test was relatively subjective. She don't really care about her students as I believed, and with a kind of cold attachment. Not recommended!  ",
+            "class_name": "CSC116",
+            "date": "2022-11-10"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "This professer does not care about her students, she just wants to create machines that code",
+            "class_name": "CSC116",
+            "date": "2022-11-08"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "This professor is one of the worst in the entire comp sci department. DO NOT TAKE THIS CLASS",
+            "class_name": "CSC116",
+            "date": "2022-10-27"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "terrible",
+            "class_name": "CSC116",
+            "date": "2022-10-27"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": " ",
+            "class_name": "CSC116",
+            "date": "2022-10-27"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "I love this Professor. She gives a good knowledge about Java. I like her approach to Labs and Tests. Where if you do your work hard, you will pass, if not - you fail. Definitely recommend if you want to get a good knowledge about Programming! ",
+            "class_name": "CSC116",
+            "date": "2022-05-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "She's good at explaining things and will answer questions in class. She is a tough grader but a fair grader and her tests are easy if you understand what you are doing.",
+            "class_name": "CSC116",
+            "date": "2022-04-27"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Awful. Extremely strict with due dates and unhelpful when asked questions. I asked questions through email and she gave vague answers sometimes answered after the due date. Mandatory attendance or the assignment will not be assigned to you (zero for the assignment if you show up too late). Never ask for an extensions because you won't get them.",
+            "class_name": "CSC116",
+            "date": "2022-04-21"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "This class is required for a double major in EE and CPE, but you'll learn nothing useful. The tests started as extremely difficult testing material we had not learned and were conducted in a very unorganized manner.",
+            "class_name": "CSC226",
+            "date": "2021-12-15"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "This was my first ever coding class, and having Dr. Schmidt did not make getting an A easy. We had two large labs each week that were graded relatively harshly. For labs you are paired with a random student to begin with. Make sure to ask TAs for help in office hours or support list to do well in class. End of course has large group project w/final",
+            "class_name": "CSC116",
+            "date": "2021-12-15"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "I would not take this class again. If you don't have a background in coding it will be very difficult to pass. Barely explains anything. Assigns so much more work than the other teachers. Two labs a week, and a very tough grader. The TAs are a godsend and they basically teach you! Impossible to get ahold of outside of class. She records lectures .",
+            "class_name": "CSC116",
+            "date": "2021-11-30"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "DO NOT TAKE HER CLASS!! She assigns too much work, like 3x the amount that other teachers who teach this class do. She doesnt answer questions that you ask, she tells you that it was covered and to look on the Moodle site. Go to the TAs for help, theyre way nicer, and you can actually understand what they are trying to teach you.",
+            "class_name": "CSC116",
+            "date": "2021-11-30"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "To give a honest rate, she is a very nice person and tries her best to teach the material. At the beginning the class was a mess due to the structure of the class and how disorganized everything was together with the hard exams and the lack of preparation for the exams. However, they changed a lot with the exams and all that, so its not that bad.",
+            "class_name": "CSC226",
+            "date": "2021-11-20"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "One of the worst courses i've taken in my life. Dr. Schmidt does no actual teaching in her lectures and simply dumps us into group projects for an hour and a half. The tests are incredibly tough and totally different from the lecture notes. If you're a beginner to java then please stay away from this course for your own sanity.",
+            "class_name": "CSC116",
+            "date": "2021-11-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Worst professor I've ever had. Extremely rude when it comes to trying to fix things and never helps if you have any questions. Kinda seems like no company would take her so she just decided to be a professor. DO NOT take this course with Schmidt, one of the worst decisions I've ever made.",
+            "class_name": "CSC116",
+            "date": "2021-11-11"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "I ended up joining the class after the first day because of a problem with my schedule, and she put all of all of the other people who also joined late in a group together and then we completely unwilling to help up catch up. 0/10, worst class I've taken at state",
+            "class_name": "CSC116",
+            "date": "2021-11-10"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "She doesn't teach the material, she just goes over the lecture notes. Tests are way harder than the material that we see in the lectures. Practice tests do not prepare you good enough for the exams either. NOT a lot to say about this class. Would skip it for now until they figure out a better structure for this course.",
+            "class_name": "CSC226",
+            "date": "2021-10-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I do like her lectures (very straightforward and good examples), though no matter what I do I feel so underprepared for the tests- they're much harder than what I encounter in class/ homework. It feels like the difficulty is not from the subject itself, but from trying to navigate the poor test structure. Great teacher; just way too tough on exams.",
+            "class_name": "CSC226",
+            "date": "2021-10-21"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Let's just say, be ready to be disappointed and rethink your major after taking this class even though it has nothing to do with Computer Science!",
+            "class_name": "CSC226",
+            "date": "2021-10-21"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "TESTS ARE INSANE. I personally like this professor and feel like her lectures are good. The homework is fair and she provides notes. But the tests are always 10 times harder than anything we cover in class. We have changed the format for tests each time now and there is always some weird new way of submitting and we just aren't given enough time.",
+            "class_name": "CSC226",
+            "date": "2021-10-21"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "not as easy as it was few semesters ago. Tests are really hard to do and werent related to anything",
+            "class_name": "CSC226",
+            "date": "2021-10-19"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Gotta be the worst coding professor I've ever had. She's rude and doesn't really seem to want to help you. Kind of seems like she just stumbled upon this job with no teaching experience. DO NOT take if you have no coding experience.",
+            "class_name": "CSC116",
+            "date": "2021-09-21"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "I have been doing computer science my whole life, but had to take this course per degree requirement. If you are new to programming, STAY AWAY FROM THIS CLASS. The assignments are extremely tedious and long, and in my opinion is the reason why so many people end up steering clear of CSC. If you want to learn Java, I'd recommend teaching yourself",
+            "class_name": "CSC116",
+            "date": "2021-09-07"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "2 labs per week, and pre-labs due a bit before class. Pre-labs aren't too long but can seem extremely overwhelming. Miss class? Can't make up that lab, take the zero unless it's excused. Lectures in class don't help; if you're new to Java or coding, don't take this class. Hope your partner knows what they're doing or you're not vibing well here.",
+            "class_name": "CSC116",
+            "date": "2021-09-02"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "There are 2 labs every week, and they are super long, so be prepared to work a lot, especially if you don't have any coding background. Also, there are 5 projects which weren't easy. The exams were tough. Overall would not recommend her.",
+            "class_name": "CSC116",
+            "date": "2021-05-07"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "You have to read the textbook before class, but she explains it really well again in class. She gives a lot of extensions and is super helpful. This class is a ton of work but not difficult. She provides tons of resources.",
+            "class_name": "CSC116",
+            "date": "2021-04-02"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Between completing 2 labs per weeks plus 5 projects, the workload piles up. Depending on how knowledgeable your lab partner is, be prepared to spend 10+ hours per week working on assignments. She is a tough grader(especially on projects) and will almost never accept late work. Would not recommend the class if you have no prior coding experience.",
+            "class_name": "CSC116",
+            "date": "2021-03-18"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "bad teaching, and mean",
+            "class_name": "CSC226",
+            "date": "2021-03-08"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Lectures went pretty fast at the beginning of the semester. Labs and Zybooks was a lot of work sometimes but exams weren't too bad and I felt like Dr. Schmidt gave me a good understanding of Java fundamentals.",
+            "class_name": "CSC116",
+            "date": "2021-02-02"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "I had no computer science background at all. Exams were very difficult and harshly graded. We had 2 labs per week and less than 2 days to do them so just hope your lab partner knows what theyre doing or youll be stuck doing the labs all day. Hard class but prepares you well. Dont expect to get an A or B+ if you have no experience with coding.",
+            "class_name": "CSC116",
+            "date": "2020-11-05"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Uses a flipped classroom. You have to teach yourself most of time, especially after going online. Exams were extremely hard and pretty different from what we were doing in class. Didn't seem to care about anything, harsh grading.",
+            "class_name": "CSC116",
+            "date": "2020-08-13"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Id say Dr. Schmidt is middle of the road. Lectures arent great but not bad. Shes not that helpful in office hours, but the TAs are very helpful if you go to office hours. Projects are time consuming and a lot of work but not necessarily difficult. Tests arent too bad, there is practice tests that help. Id take her again.",
+            "class_name": "CSC216",
+            "date": "2020-08-11"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Schmidt hosts a flipped CSC116 section, but I think she does it very well. Grading on assignments and projects is a bit tough though, because it's done by the TAs, and I sometimes felt I lost points for no reason, but overall solid class. A bit fast paced for people that are new though, but I really enjoyed her class format.",
+            "class_name": "CSC116",
+            "date": "2020-06-03"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Read through the slides. Spend an hour with her but never received the answer. No knowledge just started teaching. Homeworks and tests are made to give you an F. Expect to learn by yourself with zero help from her. Read the textbook if you want to pass, her lecture videos wouldn't help in the test",
+            "class_name": "CSC116",
+            "date": "2020-05-23"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "I was frustrated by some of the harsh grading on some assignments and tests in this class and the lack of feedback at times, but overall Dr. Schmidt hosts a very good intro java class. Lectures are videos and class periods are group assignments. This format worked very well for me as someone who is completely new to java, letting me take my time.",
+            "class_name": "CSC116",
+            "date": "2020-05-12"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Take this class with King. Schmidt was fine, but having seen King's lecture videos, he explains the material better. Some days it just feels like Schmidt is reading from the slides. Exams are tough as s***and test knowledge over programming ability. USE THE TEXTBOOK FOR THE CODING HOMEWORK, and find someone to work with for the written homework.",
+            "class_name": "CSC316",
+            "date": "2020-05-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Professor Jessica does an exceptional job covering the course material! Just make sure to stay up to date on everything. Exams can be in-depth, so I highly recommend you read the textbook and use Practice It (these two are critical for success). Start early on projects to allow for enough time. Overall, a really great class!",
+            "class_name": "CSC116",
+            "date": "2020-05-05"
+          },
+          {
+            "rating": 2,
+            "difficulty": 5,
+            "review_text": "I'm pretty sure she just started teaching this class. Moodle gradebook is a mess, basically taught by Dr. King but without his in-person lectures.",
+            "class_name": "CSC316",
+            "date": "2020-04-23"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Enthusiastic about material and provides an interactive lecture (if class is awake). Textbook not needed. Points docked if absent alot For every 216 section: Instructors/TAs answer questions fairly quickly on Piazza about projects or to clarify confusion about the material. Only 2 proj. and 3 tests w/ final and office hours fill up during deadlines",
+            "class_name": "CSC216",
+            "date": "2019-12-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Compared to other sections of this course, I feel like Dr. Schmidt makes her students work the hardest for their final grade. She provides her students with a good foundation in programming habits and skills to carry over to CSC 216.",
+            "class_name": "CSC116",
+            "date": "2019-12-15"
+          }
+        ]
+      },
+      {
+        "name": "Abida Haque",
+        "rmp_id": "VGVhY2hlci0yODk0NDAz",
+        "rating": 2,
+        "difficulty": 3.9,
+        "num_ratings": 67,
+        "total_ratings": 67,
+        "department": "Computer Science",
+        "would_take_again": 23.8806,
+        "courses_taught": [
+          "CSC 116",
+          "CSC 226",
+          "CSC 333",
+          "E 115"
+        ],
+        "last_reviewed": "2026-05-15",
+        "reviews": [
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Professor Haque is an enthusiastic lecturer who seeks feedback, though class can feel disorganized and rushed. Discrete math isn't too difficult compared to other ECE/CSC courses. Tests mirror practice problems, and both midterms can luckily be replaced by the final exam grade. It's a fair class if you stay on top of the practice materials.",
+            "class_name": "CSC-226",
+            "date": "2026-05-15"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "I never actually met Dr. Haque as the class is online. E115 is very confusing and you can miss a lot of points without realizing. They send an email every week saying which assignments to do but the assignments are often vague and dont tell you how to either setup or submit. :)",
+            "class_name": "E115",
+            "date": "2026-04-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "If you're one of those student's that doesn't really pay much attention in class, uses AI on your homework, crams before tests, but does really well anyways, you'll be fine in this class. That is to say, to succeed in this class, you either grind practice work that they suggest (but not require) or be exceedingly intuitive and smart about cramming.",
+            "class_name": "CSC-226",
+            "date": "2026-04-09"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "To Prof Abida Haque, maybe try improving your lectures and grading before you start bothering our advisors about our attendance. There's a reason students aren't going.",
+            "class_name": "CSC-226",
+            "date": "2026-04-02"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Worst prof. she cares about the attendance but it's not in the syllabus.",
+            "class_name": "CSC-226",
+            "date": "2026-04-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Her lectures are not good, she does not post notes or lectures, and partial credit on tests is poorly explained nor given.",
+            "class_name": "CSC-226",
+            "date": "2026-03-27"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Teacher does not give any partial credit at all, I made minor errors on 4 questions and that resulted in a 38 point loss on an exam. ",
+            "class_name": "CSC-226",
+            "date": "2026-03-25"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "I would rather spend the rest of my life coding in LC-3 again than sit through another one of her lectures.",
+            "class_name": "CSC-226",
+            "date": "2026-03-11"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "She helped me very patiently and in detail whenever I asked her something. She is really helpful in her office hours. She is ready to even give you grades back for homework if show your efforts and dedication. overall she was good professor if you show interest in back. ",
+            "class_name": "CSC-333",
+            "date": "2026-01-09"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "class is easy af if you know witchcraft, if so def take her.",
+            "class_name": "CSC-226",
+            "date": "2025-12-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I have always been academically strong and ready to tackle an academic challenge. This class made me lose faith in myself let alone my ability to learn. If you have always been a straight-A student, this class will make you start calculating minimum grade to pass and stuff like that. PLEASE, I beg you take with another professor.",
+            "class_name": "CSC-226",
+            "date": "2025-12-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I was depressed so to distract myself I started studying for this class. Then I realized this is the reason why I was depressed.",
+            "class_name": "CSC-226",
+            "date": "2025-12-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Don't know what her problem is, but she seems to enjoy making the class as hard as possible. Test avg was in the low 60s with no curve. she goes out of her way to make things harder, and if you need flexibility, she'll ignore you or give a non-answer. She's reminds me of an evil robot that's sole purpose is to make students suffer. Start praying",
+            "class_name": "CSC-226",
+            "date": "2025-12-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "This lady is insane. Her tests are made for you to fail because she enjoys watching students fail. I joined in for an office hour one day and this lady is lounging on the couch like she is at home? If you want to fail a course, take this section.\n",
+            "class_name": "CSC-226",
+            "date": "2025-12-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "The positive reviews are either from her or from masochists. The tests are impossible, gives little to no leniency. she somehow has a PhD but can't make the connection that if the test average is a 60, her tests are probably too hard or she just doesn't care (probably the latter).\n",
+            "class_name": "CSC-226",
+            "date": "2025-12-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Tests were absolutely insane and pulled questions from topics she talked about for 2 picoseconds. Daily quizzes were also disgusting too, because some days you don't get enough sleep and aren't paying enough attention to minute details from the slides.\n",
+            "class_name": "CSC-333",
+            "date": "2025-12-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "very miserly, nitpicky, and unaccommodating professor. He expects you to know the content after hearing it once. On exams, he asks overly specific questions and will deduct more points during regrade requests. Don't bother wasting your time with her. bleach doesn't care about her students.",
+            "class_name": "CSC-226",
+            "date": "2025-12-31"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Simp below me. Otherwise, 226 wasn't too bad, just don't rely on haque too much for your learning. Exam 1 is usually harder than Exam 2 due to tricky problem wordings. Homeworks are doable usually. Practice makes perfect in this class",
+            "class_name": "CSC-226",
+            "date": "2025-12-17"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "I really dont get the hate. She was always nice to me and I thought she did perfectly fine at explaining the topics. the class is hard, duh, because it covers hard material. Super overhated i actually really liked her and I didnt even do good in the class at all. yall are soft",
+            "class_name": "CSC-226",
+            "date": "2025-12-16"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "E 115 is a pretty boring class, and since it's pass/fail all you really need to do is do your work on time. You don't even have to take the final exam if you just do your work. Probably took me 1-2 hours a week at most. Studied maybe 3 hours for the midterm and got a 90 or so. It's mostly a tech literacy class so if you're a nerd you're fine.",
+            "class_name": "E115",
+            "date": "2025-12-16"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Now I'm a business major thanks ",
+            "class_name": "CSC-333",
+            "date": "2025-12-15"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "literally a menace to society",
+            "class_name": "CSC-333",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Not sure what her problem is, but she has a nasty attitude toward students and doesn't know how to interact with them on a professional level. She's had even more attitude since Mamdani last month. Im curious how she got phd  ",
+            "class_name": "CSC-226",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "It looks like she's just deleting reviews and only keeping 5 star reviews probably the ones she wrote herself. How pathetic.",
+            "class_name": "CSC-226",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "I really enjoyed this class. it was really difficult but helped me understand some basic concepts much better. Dr. Haque helped me when I came to office hours with a question about the homework.",
+            "class_name": "CSC-333",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Sitting in class was like pulling teeth and was mentally draining. Honestly, you might as well not come to class, because it won't help; it will just confuse you more. She starts a problem, then doesn't know how to finish it, then asks the class if what she's doing is right, and it'll be new material, so ofc we don't know it. ",
+            "class_name": "CSC-226",
+            "date": "2025-12-14"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Tyrants like her should be punished by the Almighty she ruined my semester. If you dont care about your mental health take her class",
+            "class_name": "CSC-226",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "if ur here to decide if u should take her for 226, take it if u want to change ur major! else Schmidt",
+            "class_name": "CSC-333",
+            "date": "2025-12-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Worst f professor at ncsu of all time.",
+            "class_name": "CSC-333",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "Legit the other 5 star reviews are here making ratings to boost her own rating. Otherwise, she is ok, and this class is doable without her lectures. She isn't good at teaching so carry yourself",
+            "class_name": "CSC-226",
+            "date": "2025-12-12"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "CSC 226 is a flipped-classroom-style class, i.e., new content is meant to be assimilated outside of class, while lecture time is used for questions/practice problems. Dr. Haque did a good job with the responsibilities she had in such a class, and I admire her commitment to hosting anonymous feedback surveys in spite of the dog-piling I've seen.",
+            "class_name": "CSC-226",
+            "date": "2025-12-10"
+          },
+          {
+            "rating": 4,
+            "difficulty": 4,
+            "review_text": "Despite what other reviews say, she's fair, reasonable, and accessible outside of the class room. These classes are just difficult in nature. You can't blame the professor for a class having difficult concepts. Not to mention, the final can replace both midterms, so you really have plenty of opportunity to succeed. ",
+            "class_name": "CSC-226",
+            "date": "2025-12-08"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "This class is by far the worst class I have ever taken. It is laid out horribly.\nHowever you will 100% pass it if you just do the assignments and pay attention to the reading, but I hated it. The videos never matched what my application looked like and it was a hot mess to navigate. And do not expect help, unless you do two business days in advance",
+            "class_name": "E115",
+            "date": "2025-12-05"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "CSC-226 at NC State is a poorly taught class, especially with Professor Haque. The lectures are unhelpful and the professor is often unprepared. You won't learn much from class&#8212;Zybooks is the only real way to learn. Grading is strict: no partial credit is given, and TAs handle most of it, making the class demotivating and frustrating. ",
+            "class_name": "CSC-226",
+            "date": "2025-12-05"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Do NOT take her, the lectures were pretty much pointless, she was unprepared most of the time. The Zybooks are decently helpful for the exams, take Dr. Card if given the option (heard he is really good). This class is just boring in general, attendence is not for a grade so you don't have to go (The only good thing).",
+            "class_name": "CSC-226",
+            "date": "2025-12-03"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "She is a nice person don't get me wrong but she comes to class so unprepared. She asks us students if the practice problem she is doing is correct and ends every sentence with a question mark. Very fast paced class as well so as soon as you don't understand 2-3 topics then you'll fall very far behind. She tries her best but is unprepared.",
+            "class_name": "CSC-226",
+            "date": "2025-12-03"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Haque gives great lectures, goes through a bunch of example problems that reflect exam questions perfectly, and takes our feedback at the end of every class. She uses our feedback to make the class more interesting and creates an interactive class environment where you do extremely well if you just try. She makes discrete math very simple. ",
+            "class_name": "CSC-226",
+            "date": "2025-11-11"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Abida was easily the worst professor I've ever had. Avoid at all costs.",
+            "class_name": "CSC-116",
+            "date": "2025-11-10"
+          },
+          {
+            "rating": 3,
+            "difficulty": 1,
+            "review_text": "The class was so easy - little thinking required, just monkey see monkey do. I would do everything at 11pm the day it was due no issue. Midterm is easy, didn't even have to take the final since I already had 70% (e115 is pass/fail). Another review said, \"hardest class they took at state\". If ur struggling in e115 ur not graduating w/ engineering!",
+            "class_name": "E115",
+            "date": "2025-11-05"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Dr. Haque is a committed teacher who has hard coursework but tries to explain as best as she can in class. There are pre-lecture videos, and during class she goes over examples and student inquiries. She responds to questions quickly and clearly and tries to make lectures interactive with treats. Overall would take again.",
+            "class_name": "CSC-226",
+            "date": "2025-11-04"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Worst experience I have ever faced with a teacher. She threatened the whole class one time since one student wouldn't stop talking. DO NOT TAKE HER FOR ANYTHING YOU WILL REGRET IT.",
+            "class_name": "CSC-333",
+            "date": "2025-10-29"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Material is not regularly updated at all, and the staging of it is improper. For example, the midterm covers binary to decimal, a concept discussed the week after the midterm is taken. Also, why are there graphs that are over ten years old? In the Unix Command-Line Instruction doc, linux distro popularity graph is between 2002-2014...",
+            "class_name": "E115",
+            "date": "2025-09-15"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "The follow on videos are really bad. One of the TA's has birds making so much noise in the background that I'm struggling to pay attention. Others, I can't even tell what they're saying because of how thick their accent is. This whole class is quite strange, but it's a relatively easy pass/fail class, so I'm not that worried.",
+            "class_name": "E115",
+            "date": "2025-08-24"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Not much work at all. Her lectures are very engaging with a bubbly personality. Check-ins and hw are important, but with plenty of drops and reasonable difficulty. The exams are optional and only for if you do bad on the check-ins. Took E115 with her too, highly recommend.",
+            "class_name": "CSC-333",
+            "date": "2025-04-29"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Dr Haque is NOT a challenging professor; her main goal in her class is to teach you the material. She gives you so many opportunities to redeem your grade it isn't about the tests but the material itself. Yes it's a lot of work, but so many opportunities to make it up. You bomb a test? you have the final. bomb a quiz? have the midterm to replace it",
+            "class_name": "CSC-333",
+            "date": "2025-04-29"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "she continues to be such a bad representation of our university - rudest person you will ever meet at your time here at NC State. You can tell that she does not like her students nor like helping them in any way, shape, or form. Only take her if you want to be dismissed, ignored or dealt with passive aggressively. ",
+            "class_name": "CSC-333",
+            "date": "2025-04-29"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "The weekly homework is organized but when it comes to the labs, the instruction videos seem somewhat outdated and aren't always effective in actually teaching you how to complete them and the psets were ridiculously hard. She is active in the group email but often gives somewhat rude answers to people asking questions. Overwhelming for 1 credit.",
+            "class_name": "E115",
+            "date": "2025-04-21"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "Would rate 0 if it was an option. Take ANY other professor for this class. If there are no other professors, take it another semester. She is disorganized, and does not know how to teach a class at all. The structure of the class makes no sense and seems pointless.   ",
+            "class_name": "CSC-333",
+            "date": "2025-02-18"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "not organized at all.",
+            "class_name": "CSC-333",
+            "date": "2025-02-03"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "I never interacted with her personally, but the class itself doesn't do the best job of helping students. There is homework every week and it is organized, but you are left to figure out everything on your own for the most part. Also all the software you have to download is sketchy, but it's cool how it works. ",
+            "class_name": "E115",
+            "date": "2025-01-17"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "literally so bad pick any other professor. ",
+            "class_name": "CSC-333",
+            "date": "2024-12-13"
+          },
+          {
+            "rating": 5,
+            "difficulty": 1,
+            "review_text": "The material itself isn't something to blow off but she makes the class easy. For a class other than 333 she may be hard but the class was broken into 21% free 100s, 35% quizes which she will teach you in OH. If you don't go to her office hours the class can be challenging. That's the secret to her class, I bet other classes she teaches too.",
+            "class_name": "CSC-333",
+            "date": "2024-12-09"
+          },
+          {
+            "rating": 2,
+            "difficulty": 1,
+            "review_text": "E115 is a awful class for 1 credit hour. There is homework every day of the week and forgetting a few can tank your grade. Reaching out also takes a long time to get a response. The work is very easy busy work, but the grading is very harsh and sometimes inconsistent, making it feel more stressful than it should be for a one-credit class.\n\n\n\n\n\n\n",
+            "class_name": "E115",
+            "date": "2024-11-21"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "Class isn't that hard, just follow the directions, use your brain and use the internet and you'll do just fine. Abida and the TA's are all basically useless with harsh grading for a pointless 1 hour class. ",
+            "class_name": "E115",
+            "date": "2024-11-19"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "E115 was extremely hard for a one credit hour class.  This professor is extremely unhelpful and doesn't respond to emails.  She expects you to know everything already without being taught.  The assignments are graded extremely harshly and directions are written very rudely.  The class feels like a waste of time and is very difficult.",
+            "class_name": "E115",
+            "date": "2024-10-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Genuinely the worst teacher I've taken at NCSU. Although CSC 116 in itself isn't hard, Abida Haque has somehow made this quite a challenging course. She barely taught useful information and only ever discussed basic Java information through slide shows. If you are looking to learn Java and become proficient in the language, take another teacher.",
+            "class_name": "CSC-116",
+            "date": "2024-05-15"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Multiple choice quizzes and written homework assignments offered more points than they were worth, allowing you to lose points while still getting full credit. Each exam had a redo opportunity. The material is interesting but confusing towards the end. She gives problems that are sometimes really tough. Class was very disorganized.",
+            "class_name": "CSC-333",
+            "date": "2024-04-30"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Dr. Haque is the worst.  Even though she isn't a mean person, she doesn't teach and does not like to answer questions.  The class changes on a day to day basis and there really isn't a syllabus.  If you ask a question, she'll most often say something along the lines of, \"well figure it out.\"  Try to take someone else if possible.",
+            "class_name": "CSC-116",
+            "date": "2024-04-28"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Worst professor I have had at state.  Besides the class being ran horribly, syllabus not complete, not having enough tests on test day, class structure always changing, she gives the hardest questions and then doesnt give you answers, expects you to figure them out yourself, which makes it impossible to study.  I dread this class, don't take w/ her",
+            "class_name": "CSC-333",
+            "date": "2024-04-24"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "She is the worst ",
+            "class_name": "CSC-116",
+            "date": "2024-03-03"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "I got an A in the class, so I am no means writing this out of pity for myself and expected a challenge. She is probably the worst professor I've ever had. She would sometimes be \"too tired\" to answer questions at the end of class and refer us to the TAs, who couldn't help. Would complain about people not showing up but would miss half the classes.",
+            "class_name": "CSC-116",
+            "date": "2023-09-06"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Very nice and well-meaning, made herself available, and fair with grading. You had to put in effort, show up, and go to office hours, but were all these 1-star reviewers expecting free A's in a CSC class? Exams were easy if you paid attention imo. I'd probably actually rate her a 3-4 (lectures were slow) but I want to offset these other reviews. ",
+            "class_name": "CSC-116",
+            "date": "2023-09-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "Does not know anything about java. Loves to accuse people of not doing their work properly. Cannot grade papers and projects for the love of god (She was off by 20 marks on some papers). Class is easy if you know java. But she will make u want to change your major.",
+            "class_name": "CSC-116",
+            "date": "2023-07-31"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "BAD",
+            "class_name": "CSC-116",
+            "date": "2023-07-23"
+          },
+          {
+            "rating": 2,
+            "difficulty": 4,
+            "review_text": "If you want to pass CSC, DON'T take professor Haque. Some of her test questions make no sense and her lectures were a bit difficult to understand. She's also a very tough project grader.",
+            "class_name": "CSC-116",
+            "date": "2023-05-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Professor Haque was a strict teacher. Her grading for the tests and projects were hard. Test questions were not clear and hard to understand.",
+            "class_name": "CSC-116",
+            "date": "2023-05-01"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "Professor Haque was very hard to understand in class and was hard to communicate with outside of class.",
+            "class_name": "CSC-116",
+            "date": "2023-05-01"
+          }
+        ]
+      },
+      {
+        "name": "Ignacio Dominguez",
+        "rmp_id": "VGVhY2hlci0yNTQ4MTc5",
+        "rating": 3.8,
+        "difficulty": 3.1,
+        "num_ratings": 21,
+        "total_ratings": 21,
+        "department": "Computer Science",
+        "would_take_again": 80.9524,
+        "courses_taught": [
+          "CSC 216",
+          "CSC 226",
+          "CSC 342"
+        ],
+        "last_reviewed": "2026-04-15",
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Prof. is also knowledgeable about the topic and has clear expectations on the syllabus and for assignments. The class is a large amount of work because he covers a lot of material, but you also learn a lot. Highly recommend this class for anyone in CSC!",
+            "class_name": "CSC342",
+            "date": "2026-04-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "He was my senior design advisor, and he did give a lot of good yet challenging feedback. He is literally active most of the time on Slack, so you could just DM him a question when working on the project over fall break as an example.  ",
+            "class_name": "CSC342",
+            "date": "2025-12-07"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "The GOAT professor, honestly. If you're looking to sharpen your full-stack engineering skills, look no further than CSC 342 with Dominguez.",
+            "class_name": "CSC342",
+            "date": "2025-05-02"
+          },
+          {
+            "rating": 5,
+            "difficulty": 5,
+            "review_text": "The class uses an ungrading system where the teaching staff only provides feedback and you have to propose your own grade. The downside of this is that you will do work for this class daily. I found the course to be difficult, but Dr. Dom&#237;nguez is a great professor who answers questions around the clock. Don't take this class during a busy semester",
+            "class_name": "CSC342",
+            "date": "2025-04-03"
+          },
+          {
+            "rating": 5,
+            "difficulty": 4,
+            "review_text": "Tough class but great professor. Lots of material to cover and lots of projects to do, but Dr. Dominguez provided a lot of ways to get support. Flipped video lecture material was concise and in-class projects were helpful. I learned a lot. ",
+            "class_name": "CSC342",
+            "date": "2025-01-05"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "By far the most useful class I have taken in college. You will learn a lot. The course is flipped meaning you watch some videos on your own and spend class-time coding a small exercise. The class moves very quickly so be ready to teach yourself and not miss class. If you're into web dev, there's plenty of room to do extra and polish your portfolio.",
+            "class_name": "CSC342",
+            "date": "2024-12-10"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "CSC342 is one of the most useful and practical classes at State that every CS major should take. Dominguez is online-savvy, and the course is flipped, meaning you watch videos before class and then complete in-class projects each day. You learn a great deal, and none of the topics are particularly difficult.",
+            "class_name": "CSC342",
+            "date": "2024-11-30"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "In class all you do are exercises. They can be hard & you are left behind. He gives you the answers during class, but if you miss class tough luck. He also speeds through it. If you have to be absent he will not be accommodating. Was honestly rude, which made me scared to ask him any questions / help at all. Content is through videos only. ",
+            "class_name": "CSC342",
+            "date": "2024-11-02"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "i found Dr Dominguez to be a really harsh grader. We covered an insane amount of material that we had to teach ourselves because he went over everything so fast. This class is good for people who already know web development very well and understand all the concepts. If you don't, you will be left behind. I expected to enjoy the class but hated it.",
+            "class_name": "CSC342",
+            "date": "2024-03-25"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "Dr. Dominguez's Web Development course at NC State is highly practical for software engineering. Covering HTML/CSS/JS/Docker to advanced topics like Authentication, Sessions, PWAs, etc. Dr. Dominguez's passion is evident, and he's responsive on Discord. No exams but expect homework and a group project. Dedicate time to grasp concepts and coding.",
+            "class_name": "CSC342",
+            "date": "2023-12-02"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "The actual professor is fine. Clear lectures, lays out the assignments every week, gives good examples. The structure of the course is what I struggle with. There are labs every week that look like they were made from the 90s that count for 15% of your final grade. You are also graded on participation, which is purely based on optional assignments.",
+            "class_name": "CSC226",
+            "date": "2021-12-11"
+          },
+          {
+            "rating": 3,
+            "difficulty": 4,
+            "review_text": "Good teacher with helpful lectures with good examples. Homework is heavily weighted to offset test grades, but they aren't too hard. There were ALOT of tech issues with the first 2 tests that caused people to fail them, labs are tedious, and study engagement is part of your grade so always do them. Overall, good class with lots of problems.",
+            "class_name": "CSC226",
+            "date": "2021-12-09"
+          },
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "Lectures are very dry, tests were more difficult than should've been and had multiple tech issues with the first 2 tests. Includes long and irrelevant &quot;lab&quot; assignments that are poorly made. Homework can be relatively easy but the platform webwork needs to be retired ASAP. Dominguez probably couldn't care less about the students.",
+            "class_name": "CSC226",
+            "date": "2021-11-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "Wondering how he get such high ratings. Tests are too hard compared to the stuff in lectures and practice tests are poor in preparing u for the exam. Wouldn't recommend.",
+            "class_name": "CSC226",
+            "date": "2021-10-31"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "He's a really great teacher and really receptive to questions. Would have been much easier for me if it wasn't an online course unfortunately. If you pay attention and start the projects EARLY the class is much much easier.",
+            "class_name": "CSC216",
+            "date": "2021-01-17"
+          },
+          {
+            "rating": 4,
+            "difficulty": 2,
+            "review_text": "Gives good lectures, encourages questions, very helpful if you can find him in office hours. I think Dr. Dominguez is one of your best choices for CSC 216. One of the more caring people in the CSC department. Speaking from covid fall 2020, the grading for this class was not harsh and there were a few opportunities for extra credit.",
+            "class_name": "CSC216",
+            "date": "2020-12-08"
+          },
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "Nice guy, very lenient grading and straightforward tests, easy homework. Good lectures where he goes through examples, and good practice tests. You have to try to get a bad grade in the class.",
+            "class_name": "CSC226",
+            "date": "2020-07-27"
+          },
+          {
+            "rating": 3,
+            "difficulty": 2,
+            "review_text": "Fine professor for 226. Pretty easy if you put in a little work. There is no A- in the class so an 89.5 is an A.",
+            "class_name": "CSC226",
+            "date": "2020-05-15"
+          },
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "Dr. Dominguez made class really fun and did silly examples. The material was pretty easy, but you can still retake one test during your final to get a better grade. Some of the test questions were a little hard, but if you practice and really try to understand the material, you'll be fine.",
+            "class_name": "CSC226",
+            "date": "2020-04-20"
+          },
+          {
+            "rating": 4,
+            "difficulty": 1,
+            "review_text": "Overall great professor that is happy to take topics slower if the class needs it. Discrete math is a pretty easy course no matter the professor but Dominguez made it enjoyable.",
+            "class_name": "CSC226",
+            "date": "2019-12-17"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Dr Dominiguez is the first time that he is teaching this class. He did a decent job teaching the class. The material he explains is decent and the hw is not that bad if you attend the lectures. The exams are fair and you can also get partial and extra credit. The exams come straight from the sample exams with numbers switched until test 3, which is",
+            "class_name": "CSC226",
+            "date": "2019-12-05"
+          }
+        ]
       }
     ],
     "Electrical and Computer Engineering": [
