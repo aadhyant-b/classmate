@@ -326,17 +326,6 @@ async def get_course_insights(school: str, code: str) -> dict:
         except Exception as e:
             logger.warning("generate_insights failed for %r: %s", prof["name"], e)
 
-        name_parts = prof["name"].lower().split()
-        last_name   = name_parts[-1] if name_parts else ""
-        course_variants = [course_code.lower(), course_code.replace(" ", "").lower()]
-        co_occurrence_count = sum(
-            1 for post in reddit_posts
-            if last_name
-            and last_name in (post.get("title", "") + " " + post.get("body", "")).lower()
-            and any(v in (post.get("title", "") + " " + post.get("body", "")).lower()
-                    for v in course_variants)
-        )
-
         return {
             "name":               prof["name"],
             "rating":             prof.get("rating"),
@@ -344,7 +333,6 @@ async def get_course_insights(school: str, code: str) -> dict:
             "insights":           insight,
             "_posts":             reddit_posts,
             "_review_count":      len(course_reviews),
-            "_co_occurrence_count": co_occurrence_count,
         }
 
     tasks = [asyncio.ensure_future(_fetch_one(p)) for p in professors[:3]]
@@ -356,13 +344,7 @@ async def get_course_insights(school: str, code: str) -> dict:
 
     professor_results = []
     for r in gathered:
-        if r["_review_count"] >= 1 or r["_co_occurrence_count"] >= 1:
-            professor_results.append(r)
-        else:
-            logger.info(
-                "Dropping %r from %s/%s — 0 course reviews, 0 co-occurrence posts (%d total posts)",
-                r["name"], school, course_code, len(r["_posts"]),
-            )
+        professor_results.append(r)
 
     if not professor_results:
         return _no_data_response(course_code, school)
@@ -370,7 +352,6 @@ async def get_course_insights(school: str, code: str) -> dict:
     total_reddit_posts = sum(len(r.pop("_posts")) for r in professor_results)
     for r in professor_results:
         r.pop("_review_count")
-        r.pop("_co_occurrence_count")
     insights_error = any(r["insights"] is None for r in professor_results)
 
     return {

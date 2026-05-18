@@ -168,7 +168,6 @@ async function loadBrowseSection(slug) {
       btn.addEventListener("click", () => {
         courseInput.value = c.code;
         fetchInsights(slug, c.code);
-        browseSectionEl.scrollIntoView({ behavior: "smooth", block: "start" });
         window.scrollTo({ top: 0, behavior: "smooth" });
       });
       courseRow.appendChild(btn);
@@ -446,11 +445,11 @@ function renderCard(data, courseCode, professorName = null, rating = null, numRa
   card.appendChild(summary);
 
   // Advice boxes
-  if (data.take_if || data.skip_if) {
+  if (data.take_if != null || data.skip_if != null) {
     const row = document.createElement("div");
     row.className = "advice-row";
 
-    if (data.take_if) {
+    if (data.take_if != null) {
       const box   = document.createElement("div");
       box.className = "advice-box advice-take";
       const label = document.createElement("div");
@@ -463,7 +462,7 @@ function renderCard(data, courseCode, professorName = null, rating = null, numRa
       row.appendChild(box);
     }
 
-    if (data.skip_if) {
+    if (data.skip_if != null) {
       const box   = document.createElement("div");
       box.className = "advice-box advice-skip";
       const label = document.createElement("div");
