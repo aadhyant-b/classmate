@@ -5739,6 +5739,129 @@
             "date": "2025-10-06"
           }
         ]
+      },
+      {
+        "name": "Enas Kawasmi",
+        "rmp_id": "VGVhY2hlci0yNTAzNzM3",
+        "rating": 1.7,
+        "difficulty": 3.3,
+        "num_ratings": 25,
+        "would_take_again": 24,
+        "department": "Computer Science",
+        "courses_taught": [
+          "ITCS 1213",
+          "ITSC 1212",
+          "ITSC 1213"
+        ],
+        "reviews": [
+          {
+            "rating": 1,
+            "difficulty": 2,
+            "review_text": "In a room of 80 computer science students, she's the most confused one.",
+            "class_name": "ITSC1213",
+            "date": "2024-09-20"
+          },
+          {
+            "rating": 3,
+            "difficulty": 3,
+            "review_text": "3",
+            "class_name": "ITSC1213",
+            "date": "2023-12-13"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "She is the worst professor for this class, she is very hard to understand. She gives us homework without any clarity and labs without any good explanations. Overall don't take her class you will suffer! ",
+            "class_name": "ITSC1213",
+            "date": "2023-05-08"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "All over the place and hard to understand. You can't access half the work you submitted so you can see what's wrong with it. Had a ungraded assignment, which was not required to complete, then decided to make it graded because she didn't like the turnout of students who attempted it. Would STRONGLY advise to not take her.",
+            "class_name": "ITCS1213",
+            "date": "2023-03-20"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "All over the place. Highly unorganized. All of her assignments/test/quizes are inaccessably half the time because she forgets to open them, or set the timeframe correctly. Decent person, not a good teacher at all.",
+            "class_name": "ITCS1213",
+            "date": "2023-03-06"
+          },
+          {
+            "rating": 3,
+            "difficulty": 2,
+            "review_text": "Lectures weren't that helpful and the coursework wasn't well-organized but there were lots of opportunities to retake exams and turn in late work. Enas is not very good at teaching but clearly wants to help you succeed.",
+            "class_name": "ITCS1213",
+            "date": "2023-01-08"
+          },
+          {
+            "rating": 4,
+            "difficulty": 3,
+            "review_text": "Professor Enas is a very caring instructor who tries her best to explain CS concepts. She uses coding rooms which can be buggy, but she tries her best to allow students to finish their assignments. It can take weeks for assignments to be graded, and many assignments are given throughout the course. ",
+            "class_name": "ITCS1213",
+            "date": "2022-12-08"
+          },
+          {
+            "rating": 2,
+            "difficulty": 1,
+            "review_text": "She randomly started taking attendance halfway through the semester, forcing all of us to listen to her talk about nothing during lecture periods. However, the labs are great and she gives extra credit on most assignments. It's impossible to get below a 100 in this class, but, if you somehow manage to do so, you should probably switch majors.",
+            "class_name": "ITSC1213",
+            "date": "2022-11-15"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "I am currently in class as I leave this review. We have a 50 minute class. 47 minutes and counting in and she is still talking and I have learned nothing. We have 3 different platforms with unclear due dates. When you finish your assignments and submit them you get a 0 until her TA's get around to grading typically 2 weeks later.",
+            "class_name": "ITCS1213",
+            "date": "2022-09-21"
+          },
+          {
+            "rating": 1,
+            "difficulty": 1,
+            "review_text": "Started with a 240 question assignment that she only cancelled because of bugs. Nice with deadlines. Lectures were mandatory but useless, office hours & labs are the only way to learn, use them or you'll fail. Constantly changes grading scales, even with the final exam which was a buggy mess. An absolute disaster of a course though very easy.",
+            "class_name": "ITSC1213",
+            "date": "2022-05-23"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "It's tough to express just how horrible Professor Al-Kawasami is for ITSC-1213. Attendance is mandatory and talks all class about nothing in particular, even when she assigns in-class assignments. Everything is extremely unorganized and grading is unclear. With every fiber of my body PLEASE I beg you PLEASE do not put yourself through this class.",
+            "class_name": "ITCS1213",
+            "date": "2022-04-19"
+          },
+          {
+            "rating": 1,
+            "difficulty": 3,
+            "review_text": "I took this professor for 1212 and it was not a difficult class overall. The problem is that attendance is mandatory and you will learn nothing in class. She screams all class about nothing and struggles to take a breath. Java is my favorite subject I'm in but she makes it by far the worst class I have to go to. Do not take her class.",
+            "class_name": "ITSC1212",
+            "date": "2022-04-12"
+          },
+          {
+            "rating": 1,
+            "difficulty": 5,
+            "review_text": "This is by far the worst Professor I have ever had. The class is so disorganized and she just rambles for the entire lecture. If you have an in class assignment to do you will not be able to focus because she is very loud and talks the entire time. For your own sanity, do not take.",
+            "class_name": "ITSC1213",
+            "date": "2022-03-24"
+          },
+          {
+            "rating": 1,
+            "difficulty": 4,
+            "review_text": "This may be the single most disorganized nightmare of a class I have ever taken. Assignments pop up out of nowhere with no mention of it beforehand. Assignments will often become bugged out, meaning you could spend hours on assignments just for them to not count towards your grade. Useless lab and lecture sessions. Unclear instructions. Just don't.",
+            "class_name": "ITSC1213",
+            "date": "2022-01-30"
+          },
+          {
+            "rating": 2,
+            "difficulty": 2,
+            "review_text": "Prof. Al Kawasmi is a kind person who is very flexible. That being said, the class time is useless as it is just incessant rambling- but she does take attendance for it. The textbook is pretty good for this course, and I learned a lot from it- but that's the only place you'll learn inside the course. Also your lowest test grade is dropped.",
+            "class_name": "ITSC1212",
+            "date": "2022-01-06"
+          }
+        ],
+        "total_ratings": 25,
+        "last_reviewed": "2024-09-20"
       }
     ],
     "Mathematics": [
@@ -43768,6 +43891,29 @@
             "date": "2025-05-11"
           }
         ]
+      },
+      {
+        "name": "David Plaisted",
+        "rmp_id": "VGVhY2hlci0xODAzMTE2",
+        "rating": 2.9,
+        "difficulty": 2,
+        "num_ratings": 37,
+        "would_take_again": 66.6667,
+        "department": "Computer Science",
+        "courses_taught": [
+          "COMP 455"
+        ],
+        "reviews": [
+          {
+            "rating": 2,
+            "difficulty": 3,
+            "review_text": "He didn't put any work into the class, and clearly never reviewed any class material beforehand, you're better off watching youtube videos. Also loves tricky questions on exams. Practice exams that he gives out are almost 100% identical to the real thing.",
+            "class_name": "COMP455",
+            "date": "2022-01-10"
+          }
+        ],
+        "total_ratings": 37,
+        "last_reviewed": "2022-01-10"
       }
     ],
     "Mathematics": [
@@ -77124,6 +77270,53 @@
             "date": "2025-08-22"
           }
         ]
+      }
+    ],
+    "Music": [
+      {
+        "name": "Kris Karahalios",
+        "rmp_id": "VGVhY2hlci0xODUwMjgw",
+        "rating": 5,
+        "difficulty": 2.5,
+        "num_ratings": 4,
+        "would_take_again": 100,
+        "department": "Music",
+        "courses_taught": [
+          "MUSC 205"
+        ],
+        "reviews": [
+          {
+            "rating": 5,
+            "difficulty": 2,
+            "review_text": "He is a wonderful prof, and it's a privilege to have the opportunity to take lessons with him. He's genuinely interested in his students' lives, not just within, but outside of music, too. He wants to see everyone succeed, and his teaching methods and life advice will do just that. He's the prof I hope most to stay in contact with after graduating.",
+            "class_name": "MUSC205",
+            "date": "2026-04-17"
+          },
+          {
+            "rating": 5,
+            "difficulty": 3,
+            "review_text": "He is genuinely one of the best teachers/professors I've ever had in all of my schooling career.  He consistently pushes students to be better without being rude about it.  He is very knowledgable but never talks down to his students. ",
+            "class_name": "MUSC205",
+            "date": "2023-04-18"
+          }
+        ],
+        "total_ratings": 4,
+        "last_reviewed": "2026-04-17"
+      }
+    ],
+    "Languages": [
+      {
+        "name": "Anita Bhosale",
+        "rmp_id": "VGVhY2hlci0xNjQ5MDY0",
+        "rating": 4,
+        "difficulty": 2,
+        "num_ratings": 1,
+        "would_take_again": -1,
+        "department": "Languages",
+        "courses_taught": [],
+        "reviews": [],
+        "total_ratings": 1,
+        "last_reviewed": ""
       }
     ]
   },

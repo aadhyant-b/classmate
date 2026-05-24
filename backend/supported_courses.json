@@ -1298,8 +1298,8 @@
     {
       "course_code": "ITCS 1213",
       "course_name": "Introduction to Computer Science II",
-      "professor_count": 5,
-      "review_count": 187,
+      "professor_count": 6,
+      "review_count": 202,
       "last_updated": "2026-05-21"
     },
     {
@@ -1643,6 +1643,20 @@
       "course_name": "Topics in Italian",
       "professor_count": 1,
       "review_count": 6,
+      "last_updated": "2026-05-21"
+    },
+    {
+      "course_code": "ITSC 1212",
+      "course_name": "Introduction to Computer Science I",
+      "professor_count": 1,
+      "review_count": 15,
+      "last_updated": "2026-05-21"
+    },
+    {
+      "course_code": "ITSC 1213",
+      "course_name": "Introduction to Computer Science II",
+      "professor_count": 1,
+      "review_count": 15,
       "last_updated": "2026-05-21"
     },
     {
@@ -3771,8 +3785,8 @@
     {
       "course_code": "COMP 455",
       "course_name": "Models of Languages and Computation",
-      "professor_count": 4,
-      "review_count": 130,
+      "professor_count": 5,
+      "review_count": 131,
       "last_updated": "2026-05-21"
     },
     {
@@ -4480,6 +4494,13 @@
       "course_name": "Measure and Integration",
       "professor_count": 1,
       "review_count": 20,
+      "last_updated": "2026-05-21"
+    },
+    {
+      "course_code": "MUSC 205",
+      "course_name": "Advanced Individual Lessons in Brass",
+      "professor_count": 1,
+      "review_count": 2,
       "last_updated": "2026-05-21"
     },
     {

@@ -254,21 +254,25 @@ async def get_course_insights(school: str, code: str) -> dict:
     professors: list[dict] = []
     dept_faculty = _FACULTY_CACHE.get(school, {}).get(department, [])
     professors   = [p for p in dept_faculty if course_code in p.get("courses_taught", [])]
+
+    # Alias prefix cache lookup (e.g. ITSC ↔ ITCS) — always merge, not just fallback.
+    # The resolver may normalise the code to one prefix while the cache stores it under the other.
+    prefix = course_code.split()[0]
+    alias_prefix = _PREFIX_ALIASES.get(prefix)
+    if alias_prefix:
+        alias_code = alias_prefix + course_code[len(prefix):]
+        alias_profs = [p for p in dept_faculty if alias_code in p.get("courses_taught", [])]
+        if alias_profs:
+            existing_ids = {p.get("rmp_id") or p.get("id") for p in professors}
+            new_alias = [p for p in alias_profs if (p.get("rmp_id") or p.get("id")) not in existing_ids]
+            professors = professors + new_alias
+            if new_alias:
+                logger.info("Alias merge (%s->%s): +%d professor(s) for %s / %s",
+                            prefix, alias_prefix, len(new_alias), school, course_code)
     if professors:
-        logger.info("Cache hit: %d professor(s) for %s / %s", len(professors), school, course_code)
+        logger.info("Cache hit: %d professor(s) for %s / %s (after alias merge)", len(professors), school, course_code)
     else:
         logger.info("Cache miss for %s / %s — trying live RMP", school, course_code)
-
-    # Alias prefix cache lookup (e.g. ITSC 1600 ↔ ITCS 1600)
-    if not professors:
-        prefix = course_code.split()[0]
-        alias_prefix = _PREFIX_ALIASES.get(prefix)
-        if alias_prefix:
-            alias_code = alias_prefix + course_code[len(prefix):]
-            professors = [p for p in dept_faculty if alias_code in p.get("courses_taught", [])]
-            if professors:
-                logger.info("Alias cache hit (%s->%s): %d professor(s) for %s / %s",
-                            prefix, alias_prefix, len(professors), school, course_code)
 
     # First fallback: live RMP course search
     if not professors:
@@ -345,6 +349,7 @@ async def get_course_insights(school: str, code: str) -> dict:
             "_posts":             reddit_posts,
             "_review_count":      len(course_reviews),
             "_co_occurrence_count": co_occurrence_count,
+            "_num_ratings":       prof.get("num_ratings", 0),
         }
 
     tasks = [asyncio.ensure_future(_fetch_one(p)) for p in professors[:3]]
@@ -356,11 +361,11 @@ async def get_course_insights(school: str, code: str) -> dict:
 
     professor_results = []
     for r in gathered:
-        if r["_review_count"] >= 1 or r["_co_occurrence_count"] >= 1:
+        if r["_review_count"] >= 1 or r["_co_occurrence_count"] >= 1 or r["_num_ratings"] >= 5:
             professor_results.append(r)
         else:
             logger.info(
-                "Dropping %r from %s/%s — 0 course reviews, 0 co-occurrence posts (%d total posts)",
+                "Dropping %r from %s/%s — 0 course reviews, 0 co-occurrence posts, <5 total ratings (%d total posts)",
                 r["name"], school, course_code, len(r["_posts"]),
             )
 
@@ -371,6 +376,7 @@ async def get_course_insights(school: str, code: str) -> dict:
     for r in professor_results:
         r.pop("_review_count")
         r.pop("_co_occurrence_count")
+        r.pop("_num_ratings")
     insights_error = any(r["insights"] is None for r in professor_results)
 
     return {
